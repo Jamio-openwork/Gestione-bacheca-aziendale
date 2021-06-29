@@ -1,0 +1,1342 @@
+﻿<ProcessModel xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.openworkbpm.com/schema">
+  <Definitions />
+  <Description i:nil="true" />
+  <DesignerVersion>28</DesignerVersion>
+  <Id>F842F4A1ED3D4EDBA759AD5100AEB358</Id>
+  <Name>HBD_PSA_AggiornaBacheca</Name>
+  <ObjectType>ProcessModel</ObjectType>
+  <RepositoryId i:nil="true" />
+  <Version>0</Version>
+  <Definition>
+    <Description i:nil="true" />
+    <Id i:nil="true" />
+    <Name>HBD_PSA_AggiornaBacheca</Name>
+    <DataInputs>
+      <Dictionary />
+      <Description i:nil="true" />
+      <Name>9343059E084C4090B6A9AD5100AEB358</Name>
+    </DataInputs>
+    <DataOutputs>
+      <Dictionary />
+      <Description i:nil="true" />
+      <Name>3EC9DFD8285B4287B581AD5100AEB358</Name>
+    </DataOutputs>
+    <SupportedInterfaceReferences xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <Artifacts />
+    <CorrelationSubscriptons />
+    <FlowElements xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+      <d3p1:anyType i:type="StartEvent">
+        <DataInputAssociations />
+        <DataInputs>
+          <Dictionary>
+            <Item>
+              <Key>type</Key>
+              <Val>
+                <DefaultValueExpression i:nil="true" />
+                <DefaultValueReference i:nil="true" />
+                <Description i:nil="true" />
+                <Invalidable>false</Invalidable>
+                <IsArray>false</IsArray>
+                <IsUnique>false</IsUnique>
+                <IsUpgradable>false</IsUpgradable>
+                <Name>type</Name>
+                <ReadOnly>false</ReadOnly>
+                <Required>false</Required>
+                <Type i:type="InternalType">
+                  <Type>Reference</Type>
+                </Type>
+                <Filtering i:nil="true" />
+                <NotSortable>false</NotSortable>
+              </Val>
+            </Item>
+          </Dictionary>
+          <Description i:nil="true" />
+          <Name>12FC786ECB4F49829EC6AD5100AEFEBF</Name>
+        </DataInputs>
+        <DataOutputAssociations>
+          <ProcessAssignment>
+            <Code i:nil="true" />
+            <Right i:type="TypedSubject">
+              <Code />
+              <Description />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>eventOutput</Name>
+                <Type i:type="CustomType">
+                  <DefinitionBaseType>Dataset</DefinitionBaseType>
+                  <DefinitionName>B735A1C8932543A2A09DAD5100AEFEBF</DefinitionName>
+                  <DefinitionReference>B735A1C8932543A2A09DAD5100AEFEBF</DefinitionReference>
+                </Type>
+                <Child i:type="SubjectPartCustomField">
+                  <Name>signal</Name>
+                  <Type i:type="InternalType">
+                    <Type>DataEvent</Type>
+                  </Type>
+                  <Child i:type="SubjectPartSimple">
+                    <Name>Resource</Name>
+                    <Type i:type="InternalType">
+                      <Type>Data</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </Child>
+              </RootPart>
+            </Right>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>processVariables</Name>
+                <Type i:type="CustomType">
+                  <DefinitionBaseType>Dataset</DefinitionBaseType>
+                  <DefinitionName>DCD19B0D3317406C88CCAD5100AEB358</DefinitionName>
+                  <DefinitionReference>DCD19B0D3317406C88CCAD5100AEB358</DefinitionReference>
+                </Type>
+                <Child i:type="SubjectPartCustomField">
+                  <Name>DocumentoBacheca</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_DocumentoBacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_DocumentoBacheca</DefinitionReference>
+                  </Type>
+                  <Child i:nil="true" />
+                </Child>
+              </RootPart>
+            </Subject>
+            <Description i:nil="true" />
+          </ProcessAssignment>
+        </DataOutputAssociations>
+        <DataOutputs>
+          <Dictionary>
+            <Item>
+              <Key>signal</Key>
+              <Val>
+                <DefaultValueExpression i:nil="true" />
+                <DefaultValueReference i:nil="true" />
+                <Description i:nil="true" />
+                <Invalidable>false</Invalidable>
+                <IsArray>false</IsArray>
+                <IsUnique>false</IsUnique>
+                <IsUpgradable>false</IsUpgradable>
+                <Name>signal</Name>
+                <ReadOnly>false</ReadOnly>
+                <Required>false</Required>
+                <Type i:type="InternalType">
+                  <Type>DataEvent</Type>
+                </Type>
+                <Filtering i:nil="true" />
+                <NotSortable>false</NotSortable>
+              </Val>
+            </Item>
+          </Dictionary>
+          <Description i:nil="true" />
+          <Name>B735A1C8932543A2A09DAD5100AEFEBF</Name>
+        </DataOutputs>
+        <Description i:nil="true" />
+        <EventDefinition i:type="SignalEventDefinition">
+          <Filter i:type="FilterGroup">
+            <Code i:nil="true" />
+            <Filters>
+              <FilterBase i:type="FilterGroup">
+                <Code i:nil="true" />
+                <Filters>
+                  <FilterBase i:type="Filter">
+                    <Code i:nil="true" />
+                    <Complement>
+                      <Code>'Update'</Code>
+                      <Description />
+                    </Complement>
+                    <Predicate>
+                      <Type>EqualsTo</Type>
+                      <Value>True</Value>
+                    </Predicate>
+                    <Subject i:type="TypedSubject">
+                      <Code />
+                      <Description i:nil="true" />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>event</Name>
+                        <Type i:type="InternalType">
+                          <Type>DataEvent</Type>
+                        </Type>
+                        <Child i:type="SubjectPartSimple">
+                          <Name>Action</Name>
+                          <Type i:type="InternalType">
+                            <Type>String</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </Subject>
+                  </FilterBase>
+                  <FilterBase i:type="Filter">
+                    <Code i:nil="true" />
+                    <Complement i:type="BaseReferenceExpression">
+                      <Code>HBD_FRM_DocumentoBacheca</Code>
+                      <Description />
+                    </Complement>
+                    <Predicate>
+                      <Type>CustomizationIs</Type>
+                      <Value>True</Value>
+                    </Predicate>
+                    <Subject i:type="TypedSubject">
+                      <Code />
+                      <Description i:nil="true" />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>event</Name>
+                        <Type i:type="InternalType">
+                          <Type>DataEvent</Type>
+                        </Type>
+                        <Child i:type="SubjectPartSimple">
+                          <Name>Resource</Name>
+                          <Type i:type="InternalType">
+                            <Type>Data</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </Subject>
+                  </FilterBase>
+                  <FilterBase i:type="Filter">
+                    <Code i:nil="true" />
+                    <Complement>
+                      <Code>'Pubblica'</Code>
+                      <Description />
+                    </Complement>
+                    <Predicate>
+                      <Type>EqualsTo</Type>
+                      <Value>True</Value>
+                    </Predicate>
+                    <Subject>
+                      <Code>#event.Resource.Fields['StatoDocumento']</Code>
+                      <Description i:nil="true" />
+                    </Subject>
+                  </FilterBase>
+                </Filters>
+                <Operator>And</Operator>
+              </FilterBase>
+              <FilterBase i:type="FilterGroup">
+                <Code i:nil="true" />
+                <Filters>
+                  <FilterBase i:type="Filter">
+                    <Code i:nil="true" />
+                    <Complement>
+                      <Code>'Create'</Code>
+                      <Description />
+                    </Complement>
+                    <Predicate>
+                      <Type>EqualsTo</Type>
+                      <Value>True</Value>
+                    </Predicate>
+                    <Subject i:type="TypedSubject">
+                      <Code />
+                      <Description i:nil="true" />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>event</Name>
+                        <Type i:type="InternalType">
+                          <Type>DataEvent</Type>
+                        </Type>
+                        <Child i:type="SubjectPartSimple">
+                          <Name>Action</Name>
+                          <Type i:type="InternalType">
+                            <Type>String</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </Subject>
+                  </FilterBase>
+                  <FilterBase i:type="Filter">
+                    <Code i:nil="true" />
+                    <Complement i:type="BaseReferenceExpression">
+                      <Code>HBD_FRM_DocumentoBacheca</Code>
+                      <Description />
+                    </Complement>
+                    <Predicate>
+                      <Type>CustomizationIs</Type>
+                      <Value>True</Value>
+                    </Predicate>
+                    <Subject i:type="TypedSubject">
+                      <Code />
+                      <Description i:nil="true" />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>event</Name>
+                        <Type i:type="InternalType">
+                          <Type>DataEvent</Type>
+                        </Type>
+                        <Child i:type="SubjectPartSimple">
+                          <Name>Resource</Name>
+                          <Type i:type="InternalType">
+                            <Type>Data</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </Subject>
+                  </FilterBase>
+                  <FilterBase i:type="Filter">
+                    <Code i:nil="true" />
+                    <Complement>
+                      <Code>'Pubblica'</Code>
+                      <Description />
+                    </Complement>
+                    <Predicate>
+                      <Type>EqualsTo</Type>
+                      <Value>True</Value>
+                    </Predicate>
+                    <Subject>
+                      <Code>#event.Resource.Fields['StatoDocumento']</Code>
+                      <Description i:nil="true" />
+                    </Subject>
+                  </FilterBase>
+                </Filters>
+                <Operator>And</Operator>
+              </FilterBase>
+            </Filters>
+            <Operator>Or</Operator>
+          </Filter>
+          <Type i:type="InternalType">
+            <Type>DataEvent</Type>
+          </Type>
+        </EventDefinition>
+        <Id>C37B76010A144D6E8F94AD5100AEFEBF</Id>
+        <Name>DEBUG|</Name>
+        <Variables>
+          <Dictionary />
+          <Description i:nil="true" />
+          <Name>93024E26439B4D80B95EAD5100AEFEBF</Name>
+        </Variables>
+        <IsInterrupting>true</IsInterrupting>
+      </d3p1:anyType>
+      <d3p1:anyType i:type="EndEvent">
+        <DataInputAssociations>
+          <ProcessAssignment>
+            <Code i:nil="true" />
+            <Right i:type="TypedSubject">
+              <Code />
+              <Description />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>processVariables</Name>
+                <Type i:type="CustomType">
+                  <DefinitionBaseType>Dataset</DefinitionBaseType>
+                  <DefinitionName>DCD19B0D3317406C88CCAD5100AEB358</DefinitionName>
+                  <DefinitionReference>DCD19B0D3317406C88CCAD5100AEB358</DefinitionReference>
+                </Type>
+                <Child i:type="SubjectPartCustomField">
+                  <Name>DocumentoBacheca</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_DocumentoBacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_DocumentoBacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartSimple">
+                    <Name>LastUpdated</Name>
+                    <Type i:type="InternalType">
+                      <Type>Status</Type>
+                    </Type>
+                    <Child i:type="SubjectPartSimple">
+                      <Name>IdentityReference</Name>
+                      <Type i:type="InternalType">
+                        <Type>Reference</Type>
+                      </Type>
+                      <Child i:nil="true" />
+                    </Child>
+                  </Child>
+                </Child>
+              </RootPart>
+            </Right>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>eventInput</Name>
+                <Type i:type="CustomType">
+                  <DefinitionBaseType>Dataset</DefinitionBaseType>
+                  <DefinitionName>BA5BC76EECCE49B288D3AD5100B8F803</DefinitionName>
+                  <DefinitionReference>BA5BC76EECCE49B288D3AD5100B8F803</DefinitionReference>
+                </Type>
+                <Child i:type="SubjectPartCustomField">
+                  <Name>toReference</Name>
+                  <Type i:type="InternalType">
+                    <Type>Reference</Type>
+                  </Type>
+                  <Child i:nil="true" />
+                </Child>
+              </RootPart>
+            </Subject>
+            <Description i:nil="true" />
+          </ProcessAssignment>
+          <ProcessAssignment>
+            <Code i:nil="true" />
+            <Right>
+              <Code>'La bacheca è stata aggiornata correttamente.'</Code>
+              <Description />
+            </Right>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>eventInput</Name>
+                <Type i:type="CustomType">
+                  <DefinitionBaseType>Dataset</DefinitionBaseType>
+                  <DefinitionName>BA5BC76EECCE49B288D3AD5100B8F803</DefinitionName>
+                  <DefinitionReference>BA5BC76EECCE49B288D3AD5100B8F803</DefinitionReference>
+                </Type>
+                <Child i:type="SubjectPartCustomField">
+                  <Name>message</Name>
+                  <Type i:type="InternalType">
+                    <Type>Notification</Type>
+                  </Type>
+                  <Child i:type="SubjectPartSimple">
+                    <Name>Message</Name>
+                    <Type i:type="InternalType">
+                      <Type>String</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </Child>
+              </RootPart>
+            </Subject>
+            <Description i:nil="true" />
+          </ProcessAssignment>
+        </DataInputAssociations>
+        <DataInputs>
+          <Dictionary>
+            <Item>
+              <Key>toReference</Key>
+              <Val>
+                <DefaultValueExpression i:nil="true" />
+                <DefaultValueReference i:nil="true" />
+                <Description i:nil="true" />
+                <Invalidable>false</Invalidable>
+                <IsArray>false</IsArray>
+                <IsUnique>false</IsUnique>
+                <IsUpgradable>false</IsUpgradable>
+                <Name>toReference</Name>
+                <ReadOnly>false</ReadOnly>
+                <Required>false</Required>
+                <Type i:type="InternalType">
+                  <Type>Reference</Type>
+                </Type>
+                <Filtering i:nil="true" />
+                <NotSortable>false</NotSortable>
+              </Val>
+            </Item>
+            <Item>
+              <Key>message</Key>
+              <Val>
+                <DefaultValueExpression i:nil="true" />
+                <DefaultValueReference i:nil="true" />
+                <Description i:nil="true" />
+                <Invalidable>false</Invalidable>
+                <IsArray>false</IsArray>
+                <IsUnique>false</IsUnique>
+                <IsUpgradable>false</IsUpgradable>
+                <Name>message</Name>
+                <ReadOnly>false</ReadOnly>
+                <Required>false</Required>
+                <Type i:type="InternalType">
+                  <Type>Notification</Type>
+                </Type>
+                <Filtering i:nil="true" />
+                <NotSortable>false</NotSortable>
+              </Val>
+            </Item>
+          </Dictionary>
+          <Description i:nil="true" />
+          <Name>BA5BC76EECCE49B288D3AD5100B8F803</Name>
+        </DataInputs>
+        <DataOutputAssociations />
+        <DataOutputs>
+          <Dictionary />
+          <Description i:nil="true" />
+          <Name>4C27E3D4C48643279863AD5100B8F803</Name>
+        </DataOutputs>
+        <Description i:nil="true" />
+        <EventDefinition i:type="MessageEventDefinition">
+          <Message />
+          <Source>aggiorna bach</Source>
+          <Subject>Aggiornamento Bacheca</Subject>
+          <ToReference />
+        </EventDefinition>
+        <Id>C81A3434482348508096AD5100B8F803</Id>
+        <Name i:nil="true" />
+        <Variables>
+          <Dictionary />
+          <Description i:nil="true" />
+          <Name>5AEDBA6937CF4CAC9E4BAD5100B8F803</Name>
+        </Variables>
+      </d3p1:anyType>
+      <d3p1:anyType i:type="BusinessRuleTask">
+        <BoundaryEvents />
+        <DataInputAssociations>
+          <ProcessAssignment>
+            <Code i:nil="true" />
+            <Right i:type="BaseReferenceExpression">
+              <Code>CatalogoComAz</Code>
+              <Description />
+            </Right>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description i:nil="true" />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>activityInput</Name>
+                <Type i:type="CustomType">
+                  <DefinitionBaseType>Dataset</DefinitionBaseType>
+                  <DefinitionName>9BF3D6895E364A618E23AD5100C75574</DefinitionName>
+                  <DefinitionReference>9BF3D6895E364A618E23AD5100C75574</DefinitionReference>
+                </Type>
+                <Child i:type="SubjectPartCustomField">
+                  <Name>ElencoComAziendali</Name>
+                  <Type i:type="InternalType">
+                    <Type>Reference</Type>
+                  </Type>
+                  <Child i:nil="true" />
+                </Child>
+              </RootPart>
+            </Subject>
+            <Description i:nil="true" />
+          </ProcessAssignment>
+          <ProcessAssignment>
+            <Code i:nil="true" />
+            <Right i:type="BaseReferenceExpression">
+              <Code>CatalogoNews</Code>
+              <Description />
+            </Right>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description i:nil="true" />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>activityInput</Name>
+                <Type i:type="CustomType">
+                  <DefinitionBaseType>Dataset</DefinitionBaseType>
+                  <DefinitionName>9BF3D6895E364A618E23AD5100C75574</DefinitionName>
+                  <DefinitionReference>9BF3D6895E364A618E23AD5100C75574</DefinitionReference>
+                </Type>
+                <Child i:type="SubjectPartCustomField">
+                  <Name>ElencoNews</Name>
+                  <Type i:type="InternalType">
+                    <Type>Reference</Type>
+                  </Type>
+                  <Child i:nil="true" />
+                </Child>
+              </RootPart>
+            </Subject>
+            <Description i:nil="true" />
+          </ProcessAssignment>
+          <ProcessAssignment>
+            <Code i:nil="true" />
+            <Right i:type="BaseReferenceExpression">
+              <Code>CatalogoNuoviAssunti</Code>
+              <Description />
+            </Right>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description i:nil="true" />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>activityInput</Name>
+                <Type i:type="CustomType">
+                  <DefinitionBaseType>Dataset</DefinitionBaseType>
+                  <DefinitionName>9BF3D6895E364A618E23AD5100C75574</DefinitionName>
+                  <DefinitionReference>9BF3D6895E364A618E23AD5100C75574</DefinitionReference>
+                </Type>
+                <Child i:type="SubjectPartCustomField">
+                  <Name>ElencoNuoviAssunti</Name>
+                  <Type i:type="InternalType">
+                    <Type>Reference</Type>
+                  </Type>
+                  <Child i:nil="true" />
+                </Child>
+              </RootPart>
+            </Subject>
+            <Description i:nil="true" />
+          </ProcessAssignment>
+          <ProcessAssignment>
+            <Code i:nil="true" />
+            <Right i:type="BaseReferenceExpression">
+              <Code>CatalogoOffLav</Code>
+              <Description />
+            </Right>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description i:nil="true" />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>activityInput</Name>
+                <Type i:type="CustomType">
+                  <DefinitionBaseType>Dataset</DefinitionBaseType>
+                  <DefinitionName>9BF3D6895E364A618E23AD5100C75574</DefinitionName>
+                  <DefinitionReference>9BF3D6895E364A618E23AD5100C75574</DefinitionReference>
+                </Type>
+                <Child i:type="SubjectPartCustomField">
+                  <Name>ElencoOffLavoro</Name>
+                  <Type i:type="InternalType">
+                    <Type>Reference</Type>
+                  </Type>
+                  <Child i:nil="true" />
+                </Child>
+              </RootPart>
+            </Subject>
+            <Description i:nil="true" />
+          </ProcessAssignment>
+          <ProcessAssignment>
+            <Code i:nil="true" />
+            <Right i:type="BaseReferenceExpression">
+              <Code>CatalogoProcedure</Code>
+              <Description />
+            </Right>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description i:nil="true" />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>activityInput</Name>
+                <Type i:type="CustomType">
+                  <DefinitionBaseType>Dataset</DefinitionBaseType>
+                  <DefinitionName>9BF3D6895E364A618E23AD5100C75574</DefinitionName>
+                  <DefinitionReference>9BF3D6895E364A618E23AD5100C75574</DefinitionReference>
+                </Type>
+                <Child i:type="SubjectPartCustomField">
+                  <Name>ElencoProcedure</Name>
+                  <Type i:type="InternalType">
+                    <Type>Reference</Type>
+                  </Type>
+                  <Child i:nil="true" />
+                </Child>
+              </RootPart>
+            </Subject>
+            <Description i:nil="true" />
+          </ProcessAssignment>
+          <ProcessAssignment>
+            <Code i:nil="true" />
+            <Right i:type="BaseReferenceExpression">
+              <Code>CatalogoSuccStory</Code>
+              <Description />
+            </Right>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description i:nil="true" />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>activityInput</Name>
+                <Type i:type="CustomType">
+                  <DefinitionBaseType>Dataset</DefinitionBaseType>
+                  <DefinitionName>9BF3D6895E364A618E23AD5100C75574</DefinitionName>
+                  <DefinitionReference>9BF3D6895E364A618E23AD5100C75574</DefinitionReference>
+                </Type>
+                <Child i:type="SubjectPartCustomField">
+                  <Name>ElencoSuccStory</Name>
+                  <Type i:type="InternalType">
+                    <Type>Reference</Type>
+                  </Type>
+                  <Child i:nil="true" />
+                </Child>
+              </RootPart>
+            </Subject>
+            <Description i:nil="true" />
+          </ProcessAssignment>
+          <ProcessAssignment>
+            <Code i:nil="true" />
+            <Right i:type="BaseReferenceExpression">
+              <Code>CatalogoVideo</Code>
+              <Description />
+            </Right>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description i:nil="true" />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>activityInput</Name>
+                <Type i:type="CustomType">
+                  <DefinitionBaseType>Dataset</DefinitionBaseType>
+                  <DefinitionName>9BF3D6895E364A618E23AD5100C75574</DefinitionName>
+                  <DefinitionReference>9BF3D6895E364A618E23AD5100C75574</DefinitionReference>
+                </Type>
+                <Child i:type="SubjectPartCustomField">
+                  <Name>ElencoVideo</Name>
+                  <Type i:type="InternalType">
+                    <Type>Reference</Type>
+                  </Type>
+                  <Child i:nil="true" />
+                </Child>
+              </RootPart>
+            </Subject>
+            <Description i:nil="true" />
+          </ProcessAssignment>
+        </DataInputAssociations>
+        <DataInputs>
+          <Dictionary>
+            <Item>
+              <Key>ElencoComAziendali</Key>
+              <Val>
+                <DefaultValueExpression i:nil="true" />
+                <DefaultValueReference i:nil="true" />
+                <Description i:nil="true" />
+                <Invalidable>false</Invalidable>
+                <IsArray>false</IsArray>
+                <IsUnique>false</IsUnique>
+                <IsUpgradable>false</IsUpgradable>
+                <Name>ElencoComAziendali</Name>
+                <ReadOnly>false</ReadOnly>
+                <Required>false</Required>
+                <Type i:type="InternalType">
+                  <Type>Reference</Type>
+                </Type>
+                <Filtering i:nil="true" />
+                <NotSortable>false</NotSortable>
+              </Val>
+            </Item>
+            <Item>
+              <Key>ElencoNews</Key>
+              <Val>
+                <DefaultValueExpression i:nil="true" />
+                <DefaultValueReference i:nil="true" />
+                <Description i:nil="true" />
+                <Invalidable>false</Invalidable>
+                <IsArray>false</IsArray>
+                <IsUnique>false</IsUnique>
+                <IsUpgradable>false</IsUpgradable>
+                <Name>ElencoNews</Name>
+                <ReadOnly>false</ReadOnly>
+                <Required>false</Required>
+                <Type i:type="InternalType">
+                  <Type>Reference</Type>
+                </Type>
+                <Filtering i:nil="true" />
+                <NotSortable>false</NotSortable>
+              </Val>
+            </Item>
+            <Item>
+              <Key>ElencoNuoviAssunti</Key>
+              <Val>
+                <DefaultValueExpression i:nil="true" />
+                <DefaultValueReference i:nil="true" />
+                <Description i:nil="true" />
+                <Invalidable>false</Invalidable>
+                <IsArray>false</IsArray>
+                <IsUnique>false</IsUnique>
+                <IsUpgradable>false</IsUpgradable>
+                <Name>ElencoNuoviAssunti</Name>
+                <ReadOnly>false</ReadOnly>
+                <Required>false</Required>
+                <Type i:type="InternalType">
+                  <Type>Reference</Type>
+                </Type>
+                <Filtering i:nil="true" />
+                <NotSortable>false</NotSortable>
+              </Val>
+            </Item>
+            <Item>
+              <Key>ElencoOffLavoro</Key>
+              <Val>
+                <DefaultValueExpression i:nil="true" />
+                <DefaultValueReference i:nil="true" />
+                <Description i:nil="true" />
+                <Invalidable>false</Invalidable>
+                <IsArray>false</IsArray>
+                <IsUnique>false</IsUnique>
+                <IsUpgradable>false</IsUpgradable>
+                <Name>ElencoOffLavoro</Name>
+                <ReadOnly>false</ReadOnly>
+                <Required>false</Required>
+                <Type i:type="InternalType">
+                  <Type>Reference</Type>
+                </Type>
+                <Filtering i:nil="true" />
+                <NotSortable>false</NotSortable>
+              </Val>
+            </Item>
+            <Item>
+              <Key>ElencoSuccStory</Key>
+              <Val>
+                <DefaultValueExpression i:nil="true" />
+                <DefaultValueReference i:nil="true" />
+                <Description i:nil="true" />
+                <Invalidable>false</Invalidable>
+                <IsArray>false</IsArray>
+                <IsUnique>false</IsUnique>
+                <IsUpgradable>false</IsUpgradable>
+                <Name>ElencoSuccStory</Name>
+                <ReadOnly>false</ReadOnly>
+                <Required>false</Required>
+                <Type i:type="InternalType">
+                  <Type>Reference</Type>
+                </Type>
+                <Filtering i:nil="true" />
+                <NotSortable>false</NotSortable>
+              </Val>
+            </Item>
+            <Item>
+              <Key>ElencoVideo</Key>
+              <Val>
+                <DefaultValueExpression i:nil="true" />
+                <DefaultValueReference i:nil="true" />
+                <Description i:nil="true" />
+                <Invalidable>false</Invalidable>
+                <IsArray>false</IsArray>
+                <IsUnique>false</IsUnique>
+                <IsUpgradable>false</IsUpgradable>
+                <Name>ElencoVideo</Name>
+                <ReadOnly>false</ReadOnly>
+                <Required>false</Required>
+                <Type i:type="InternalType">
+                  <Type>Reference</Type>
+                </Type>
+                <Filtering i:nil="true" />
+                <NotSortable>false</NotSortable>
+              </Val>
+            </Item>
+            <Item>
+              <Key>ElencoProcedure</Key>
+              <Val>
+                <DefaultValueExpression i:nil="true" />
+                <DefaultValueReference i:nil="true" />
+                <Description i:nil="true" />
+                <Invalidable>false</Invalidable>
+                <IsArray>false</IsArray>
+                <IsUnique>false</IsUnique>
+                <IsUpgradable>false</IsUpgradable>
+                <Name>ElencoProcedure</Name>
+                <ReadOnly>false</ReadOnly>
+                <Required>false</Required>
+                <Type i:type="InternalType">
+                  <Type>Reference</Type>
+                </Type>
+                <Filtering i:nil="true" />
+                <NotSortable>false</NotSortable>
+              </Val>
+            </Item>
+          </Dictionary>
+          <Description i:nil="true" />
+          <Name>9BF3D6895E364A618E23AD5100C75574</Name>
+        </DataInputs>
+        <DataOutputAssociations>
+          <ProcessAssignment>
+            <Code i:nil="true" />
+            <Right i:type="TypedSubject">
+              <Code />
+              <Description i:nil="true" />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>activityOutput</Name>
+                <Type i:type="CustomType">
+                  <DefinitionBaseType>Dataset</DefinitionBaseType>
+                  <DefinitionName>D628C48A9B244A41B3F5AD5100C75574</DefinitionName>
+                  <DefinitionReference>D628C48A9B244A41B3F5AD5100C75574</DefinitionReference>
+                </Type>
+                <Child i:type="SubjectPartCustomArrayField">
+                  <Name>ListaElenchi</Name>
+                  <Type i:type="InternalType">
+                    <Type>Reference</Type>
+                  </Type>
+                  <Child i:nil="true" />
+                </Child>
+              </RootPart>
+            </Right>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>processVariables</Name>
+                <Type i:type="CustomType">
+                  <DefinitionBaseType>Dataset</DefinitionBaseType>
+                  <DefinitionName>DCD19B0D3317406C88CCAD5100AEB358</DefinitionName>
+                  <DefinitionReference>DCD19B0D3317406C88CCAD5100AEB358</DefinitionReference>
+                </Type>
+                <Child i:type="SubjectPartCustomArrayField">
+                  <Name>ListaElenchiLetti</Name>
+                  <Type i:type="InternalType">
+                    <Type>Reference</Type>
+                  </Type>
+                  <Child i:nil="true" />
+                </Child>
+              </RootPart>
+            </Subject>
+            <Description i:nil="true" />
+          </ProcessAssignment>
+        </DataOutputAssociations>
+        <DataOutputs>
+          <Dictionary>
+            <Item>
+              <Key>ListaElenchi</Key>
+              <Val>
+                <DefaultValueExpression i:nil="true" />
+                <DefaultValueReference i:nil="true" />
+                <Description i:nil="true" />
+                <Invalidable>false</Invalidable>
+                <IsArray>true</IsArray>
+                <IsUnique>false</IsUnique>
+                <IsUpgradable>false</IsUpgradable>
+                <Name>ListaElenchi</Name>
+                <ReadOnly>false</ReadOnly>
+                <Required>false</Required>
+                <Type i:type="InternalType">
+                  <Type>Reference</Type>
+                </Type>
+                <Filtering i:nil="true" />
+                <NotSortable>false</NotSortable>
+              </Val>
+            </Item>
+          </Dictionary>
+          <Description i:nil="true" />
+          <Name>D628C48A9B244A41B3F5AD5100C75574</Name>
+        </DataOutputs>
+        <Description i:nil="true" />
+        <Id>5CB88AE7B76043E68155AD5100C75574</Id>
+        <IsForCompensation>false</IsForCompensation>
+        <LoopCharacteristics i:nil="true" />
+        <Name>Calcola la lista dei cataloghi</Name>
+        <Resources />
+        <Variables>
+          <Dictionary />
+          <Description i:nil="true" />
+          <Name>233BF619463D4A1EB889AD5100C75574</Name>
+        </Variables>
+        <Implementation>
+          <Items>
+            <Item i:type="SimpleRule">
+              <Fact i:type="Assignment">
+                <Scope>All</Scope>
+                <Description i:nil="true" />
+                <Subjects>
+                  <Subject i:type="TypedSubject">
+                    <Code />
+                    <Description i:nil="true" />
+                    <RootPart i:type="SubjectPartSimple">
+                      <Name>activityOutput</Name>
+                      <Type i:type="CustomType">
+                        <DefinitionBaseType>Dataset</DefinitionBaseType>
+                        <DefinitionName>D628C48A9B244A41B3F5AD5100C75574</DefinitionName>
+                        <DefinitionReference>D628C48A9B244A41B3F5AD5100C75574</DefinitionReference>
+                      </Type>
+                      <Child i:type="SubjectPartCustomArrayField">
+                        <Name>ListaElenchi</Name>
+                        <Type i:type="InternalType">
+                          <Type>Reference</Type>
+                        </Type>
+                        <Child i:nil="true" />
+                      </Child>
+                    </RootPart>
+                  </Subject>
+                </Subjects>
+                <Right>
+                  <Code>List(#activityInput.Fields['ElencoComAziendali'],#activityInput.Fields['ElencoNews'],#activityInput.Fields['ElencoNuoviAssunti'],#activityInput.Fields['ElencoOffLavoro'],#activityInput.Fields['ElencoSuccStory'],#activityInput.Fields['ElencoVideo'],#activityInput.Fields['ElencoProcedure'])</Code>
+                  <Description />
+                </Right>
+              </Fact>
+            </Item>
+          </Items>
+          <Description i:nil="true" />
+          <Name i:nil="true" />
+        </Implementation>
+      </d3p1:anyType>
+      <d3p1:anyType i:type="CallActivity">
+        <BoundaryEvents />
+        <DataInputAssociations>
+          <ProcessAssignment>
+            <Code i:nil="true" />
+            <Right>
+              <Code>#processVariables.Fields['ListaElenchiLetti'][#activity.LoopCounter]</Code>
+              <Description />
+            </Right>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description i:nil="true" />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>activityInput</Name>
+                <Type i:type="CustomType">
+                  <DefinitionBaseType>Dataset</DefinitionBaseType>
+                  <DefinitionName>DB9F4673BF3F4FCDA472AD5100CA7334</DefinitionName>
+                  <DefinitionReference>DB9F4673BF3F4FCDA472AD5100CA7334</DefinitionReference>
+                </Type>
+                <Child i:type="SubjectPartCustomField">
+                  <Name>Elenco</Name>
+                  <Type i:type="InternalType">
+                    <Type>Reference</Type>
+                  </Type>
+                  <Child i:nil="true" />
+                </Child>
+              </RootPart>
+            </Subject>
+            <Description i:nil="true" />
+          </ProcessAssignment>
+        </DataInputAssociations>
+        <DataInputs>
+          <Dictionary>
+            <Item>
+              <Key>Elenco</Key>
+              <Val>
+                <DefaultValueExpression i:nil="true" />
+                <DefaultValueReference i:nil="true" />
+                <Description i:nil="true" />
+                <Invalidable>false</Invalidable>
+                <IsArray>false</IsArray>
+                <IsUnique>false</IsUnique>
+                <IsUpgradable>false</IsUpgradable>
+                <Name>Elenco</Name>
+                <ReadOnly>false</ReadOnly>
+                <Required>false</Required>
+                <Type i:type="InternalType">
+                  <Type>Reference</Type>
+                </Type>
+                <Filtering i:nil="true" />
+                <NotSortable>false</NotSortable>
+              </Val>
+            </Item>
+          </Dictionary>
+          <Description i:nil="true" />
+          <Name>DB9F4673BF3F4FCDA472AD5100CA7334</Name>
+        </DataInputs>
+        <DataOutputAssociations />
+        <DataOutputs>
+          <Dictionary>
+            <Item>
+              <Key>OggettoDocumento</Key>
+              <Val>
+                <DefaultValueExpression i:nil="true" />
+                <DefaultValueReference i:nil="true" />
+                <Description i:nil="true" />
+                <Invalidable>false</Invalidable>
+                <IsArray>false</IsArray>
+                <IsUnique>false</IsUnique>
+                <IsUpgradable>false</IsUpgradable>
+                <Name>OggettoDocumento</Name>
+                <ReadOnly>false</ReadOnly>
+                <Required>false</Required>
+                <Type i:type="InternalType">
+                  <Type>String</Type>
+                </Type>
+                <Filtering i:nil="true" />
+                <NotSortable>false</NotSortable>
+              </Val>
+            </Item>
+          </Dictionary>
+          <Description i:nil="true" />
+          <Name>FDE1BDF9591D416DA2EFAD5100CA7334</Name>
+        </DataOutputs>
+        <Description i:nil="true" />
+        <Id>1169DD93C9174965A925AD5100CA5057</Id>
+        <IsForCompensation>false</IsForCompensation>
+        <LoopCharacteristics i:type="StandardLoopCharacteristics">
+          <LoopCondition>
+            <Code>true</Code>
+            <Description />
+          </LoopCondition>
+          <LoopMaximum>
+            <Code>#processVariables.Fields['ListaElenchiLetti'].Count</Code>
+            <Description />
+          </LoopMaximum>
+          <TestBefore>false</TestBefore>
+        </LoopCharacteristics>
+        <Name>Calcola elementi da aggiornare</Name>
+        <Resources />
+        <Variables>
+          <Dictionary />
+          <Description i:nil="true" />
+          <Name>115CAA4FE1A747788B8DAD5100CA5057</Name>
+        </Variables>
+        <CallableElementReference>HBD_PR_CalcolaElementiDaAggiornare</CallableElementReference>
+      </d3p1:anyType>
+      <d3p1:anyType i:type="SequenceFlow">
+        <ConditionExpression i:nil="true" />
+        <Description i:nil="true" />
+        <Id>CCED579D06B14EA78B2DAD5100AF0469</Id>
+        <Name i:nil="true" />
+        <SourceId>C37B76010A144D6E8F94AD5100AEFEBF</SourceId>
+        <TargetId>5CB88AE7B76043E68155AD5100C75574</TargetId>
+        <Type>Normal</Type>
+      </d3p1:anyType>
+      <d3p1:anyType i:type="SequenceFlow">
+        <ConditionExpression i:nil="true" />
+        <Description i:nil="true" />
+        <Id>92744BD154D94340A5EAAD5100CA56FA</Id>
+        <Name i:nil="true" />
+        <SourceId>5CB88AE7B76043E68155AD5100C75574</SourceId>
+        <TargetId>1169DD93C9174965A925AD5100CA5057</TargetId>
+        <Type>Normal</Type>
+      </d3p1:anyType>
+      <d3p1:anyType i:type="SequenceFlow">
+        <ConditionExpression i:nil="true" />
+        <Description i:nil="true" />
+        <Id>4C21160CD80D472E9FA8AD5100CFD315</Id>
+        <Name i:nil="true" />
+        <SourceId>1169DD93C9174965A925AD5100CA5057</SourceId>
+        <TargetId>C81A3434482348508096AD5100B8F803</TargetId>
+        <Type>Normal</Type>
+      </d3p1:anyType>
+    </FlowElements>
+    <IsExecutable>true</IsExecutable>
+    <LaneSets />
+    <Resources />
+    <Variables>
+      <Dictionary>
+        <Item>
+          <Key>Bacheca</Key>
+          <Val>
+            <DefaultValueExpression i:nil="true" />
+            <DefaultValueReference i:nil="true" />
+            <Description i:nil="true" />
+            <Invalidable>false</Invalidable>
+            <IsArray>false</IsArray>
+            <IsUnique>false</IsUnique>
+            <IsUpgradable>false</IsUpgradable>
+            <Name>Bacheca</Name>
+            <ReadOnly>false</ReadOnly>
+            <Required>false</Required>
+            <Type i:type="CustomType">
+              <DefinitionBaseType>Data</DefinitionBaseType>
+              <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+              <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+            </Type>
+            <Filtering i:nil="true" />
+            <NotSortable>false</NotSortable>
+          </Val>
+        </Item>
+        <Item>
+          <Key>ListaElenchiLetti</Key>
+          <Val>
+            <DefaultValueExpression i:nil="true" />
+            <DefaultValueReference i:nil="true" />
+            <Description i:nil="true" />
+            <Invalidable>false</Invalidable>
+            <IsArray>true</IsArray>
+            <IsUnique>false</IsUnique>
+            <IsUpgradable>false</IsUpgradable>
+            <Name>ListaElenchiLetti</Name>
+            <ReadOnly>false</ReadOnly>
+            <Required>false</Required>
+            <Type i:type="InternalType">
+              <Type>Reference</Type>
+            </Type>
+            <Filtering i:nil="true" />
+            <NotSortable>false</NotSortable>
+          </Val>
+        </Item>
+        <Item>
+          <Key>RefBacheca</Key>
+          <Val>
+            <DefaultValueExpression i:nil="true" />
+            <DefaultValueReference i:nil="true" />
+            <Description i:nil="true" />
+            <Invalidable>false</Invalidable>
+            <IsArray>false</IsArray>
+            <IsUnique>false</IsUnique>
+            <IsUpgradable>false</IsUpgradable>
+            <Name>RefBacheca</Name>
+            <ReadOnly>false</ReadOnly>
+            <Required>false</Required>
+            <Type i:type="InternalType">
+              <Type>Reference</Type>
+            </Type>
+            <Filtering i:nil="true" />
+            <NotSortable>false</NotSortable>
+          </Val>
+        </Item>
+        <Item>
+          <Key>DatiRestituiti</Key>
+          <Val>
+            <DefaultValueExpression i:nil="true" />
+            <DefaultValueReference i:nil="true" />
+            <Description i:nil="true" />
+            <Invalidable>false</Invalidable>
+            <IsArray>false</IsArray>
+            <IsUnique>false</IsUnique>
+            <IsUpgradable>false</IsUpgradable>
+            <Name>DatiRestituiti</Name>
+            <ReadOnly>false</ReadOnly>
+            <Required>false</Required>
+            <Type i:type="InternalType">
+              <Type>Dataset</Type>
+            </Type>
+            <Filtering i:nil="true" />
+            <NotSortable>false</NotSortable>
+          </Val>
+        </Item>
+        <Item>
+          <Key>OggDocModificato</Key>
+          <Val>
+            <DefaultValueExpression i:nil="true" />
+            <DefaultValueReference i:nil="true" />
+            <Description i:nil="true" />
+            <Invalidable>false</Invalidable>
+            <IsArray>false</IsArray>
+            <IsUnique>false</IsUnique>
+            <IsUpgradable>false</IsUpgradable>
+            <Name>OggDocModificato</Name>
+            <ReadOnly>false</ReadOnly>
+            <Required>false</Required>
+            <Type i:type="InternalType">
+              <Type>String</Type>
+            </Type>
+            <Filtering i:nil="true" />
+            <NotSortable>false</NotSortable>
+          </Val>
+        </Item>
+        <Item>
+          <Key>DocumentoBacheca</Key>
+          <Val>
+            <DefaultValueExpression i:nil="true" />
+            <DefaultValueReference i:nil="true" />
+            <Description i:nil="true" />
+            <Invalidable>false</Invalidable>
+            <IsArray>false</IsArray>
+            <IsUnique>false</IsUnique>
+            <IsUpgradable>false</IsUpgradable>
+            <Name>DocumentoBacheca</Name>
+            <ReadOnly>false</ReadOnly>
+            <Required>false</Required>
+            <Type i:type="CustomType">
+              <DefinitionBaseType>Data</DefinitionBaseType>
+              <DefinitionName>HBD_FRM_DocumentoBacheca</DefinitionName>
+              <DefinitionReference>HBD_FRM_DocumentoBacheca</DefinitionReference>
+            </Type>
+            <Filtering i:nil="true" />
+            <NotSortable>false</NotSortable>
+          </Val>
+        </Item>
+      </Dictionary>
+      <Description i:nil="true" />
+      <Name>DCD19B0D3317406C88CCAD5100AEB358</Name>
+    </Variables>
+  </Definition>
+  <EmbeddedObjects />
+  <GraphicInformations>
+    <Globals />
+    <Planes>
+      <Item>
+        <Key>Default</Key>
+        <Val>
+          <GraphicInfos>
+            <Item>
+              <Key>A7073E7AE26A40329D7FAD5100AEFEBE</Key>
+              <Val i:type="GraphicProcessDefinition">
+                <EntityReference>C37B76010A144D6E8F94AD5100AEFEBF</EntityReference>
+                <X>180</X>
+                <Y>200</Y>
+                <Height>0</Height>
+                <Width>0</Width>
+              </Val>
+            </Item>
+            <Item>
+              <Key>4143D438D5BF4E4D95A6AD5100AF0452</Key>
+              <Val i:type="GraphicProcessLink">
+                <EntityReference>CCED579D06B14EA78B2DAD5100AF0469</EntityReference>
+                <X>220.850616</X>
+                <Y>224.768112</Y>
+                <Height>0</Height>
+                <Width>0</Width>
+                <FreeHand>false</FreeHand>
+                <LinkEndAnchor>Left</LinkEndAnchor>
+                <LinkStartAnchor>Right</LinkStartAnchor>
+                <Points>
+                  <Point>
+                    <X>220.850616</X>
+                    <Y>224.768112</Y>
+                  </Point>
+                  <Point>
+                    <X>255.183289</X>
+                    <Y>224.768112</Y>
+                  </Point>
+                  <Point>
+                    <X>255.183289</X>
+                    <Y>230.013489</Y>
+                  </Point>
+                  <Point>
+                    <X>289.515961</X>
+                    <Y>230.013489</Y>
+                  </Point>
+                </Points>
+                <Text i:nil="true" />
+              </Val>
+            </Item>
+            <Item>
+              <Key>66CA06AB66384C1FB5F3AD5100B8F803</Key>
+              <Val i:type="GraphicProcessDefinition">
+                <EntityReference>C81A3434482348508096AD5100B8F803</EntityReference>
+                <X>740</X>
+                <Y>210</Y>
+                <Height>0</Height>
+                <Width>0</Width>
+              </Val>
+            </Item>
+            <Item>
+              <Key>DFC1498BA3B54730A820AD5100C75574</Key>
+              <Val i:type="GraphicProcessDefinition">
+                <EntityReference>5CB88AE7B76043E68155AD5100C75574</EntityReference>
+                <X>290</X>
+                <Y>190</Y>
+                <Height>0</Height>
+                <Width>0</Width>
+              </Val>
+            </Item>
+            <Item>
+              <Key>1344555FFDA1444290BAAD5100CA5056</Key>
+              <Val i:type="GraphicProcessDefinition">
+                <EntityReference>1169DD93C9174965A925AD5100CA5057</EntityReference>
+                <X>480</X>
+                <Y>190</Y>
+                <Height>0</Height>
+                <Width>0</Width>
+              </Val>
+            </Item>
+            <Item>
+              <Key>AC6023DE241943C3B8BCAD5100CA56F9</Key>
+              <Val i:type="GraphicProcessLink">
+                <EntityReference>92744BD154D94340A5EAAD5100CA56FA</EntityReference>
+                <X>430.510956</X>
+                <Y>230.013489</Y>
+                <Height>0</Height>
+                <Width>0</Width>
+                <FreeHand>false</FreeHand>
+                <LinkEndAnchor>Left</LinkEndAnchor>
+                <LinkStartAnchor>Right</LinkStartAnchor>
+                <Points>
+                  <Point>
+                    <X>430.510956</X>
+                    <Y>230.013489</Y>
+                  </Point>
+                  <Point>
+                    <X>478.999329</X>
+                    <Y>230.013489</Y>
+                  </Point>
+                </Points>
+                <Text i:nil="true" />
+              </Val>
+            </Item>
+            <Item>
+              <Key>66074D0C6A8449CD8EF0AD5100CFD314</Key>
+              <Val i:type="GraphicProcessLink">
+                <EntityReference>4C21160CD80D472E9FA8AD5100CFD315</EntityReference>
+                <X>621.0006</X>
+                <Y>230.007172</Y>
+                <Height>0</Height>
+                <Width>0</Width>
+                <FreeHand>false</FreeHand>
+                <LinkEndAnchor>Left</LinkEndAnchor>
+                <LinkStartAnchor>Right</LinkStartAnchor>
+                <Points>
+                  <Point>
+                    <X>621.0006</X>
+                    <Y>230.013657</Y>
+                  </Point>
+                  <Point>
+                    <X>679.7536</X>
+                    <Y>230.013657</Y>
+                  </Point>
+                  <Point>
+                    <X>679.7536</X>
+                    <Y>230.007172</Y>
+                  </Point>
+                  <Point>
+                    <X>738.5066</X>
+                    <Y>230.007172</Y>
+                  </Point>
+                </Points>
+                <Text i:nil="true" />
+              </Val>
+            </Item>
+          </GraphicInfos>
+          <Name>Default</Name>
+        </Val>
+      </Item>
+    </Planes>
+  </GraphicInformations>
+  <Parameters>
+    <AuthorizationSchemaName />
+    <CategoryName />
+    <Name>HBD_PSA_AggiornaBacheca</Name>
+  </Parameters>
+</ProcessModel>

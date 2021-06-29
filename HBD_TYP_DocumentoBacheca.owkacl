@@ -1,0 +1,168 @@
+﻿<AclModel xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.openworkbpm.com/schema">
+  <Definitions />
+  <Description i:nil="true" />
+  <DesignerVersion>28</DesignerVersion>
+  <Id i:nil="true" />
+  <Name>HBD_TYP_DocumentoBacheca</Name>
+  <ObjectType>AclModel</ObjectType>
+  <RepositoryId i:nil="true" />
+  <Version>0</Version>
+  <AceList>
+    <Item>
+      <ContextCondition i:type="FilterGroup">
+        <Code i:nil="true" />
+        <Filters>
+          <FilterBase i:type="Filter">
+            <Code i:nil="true" />
+            <Complement i:type="BaseReferenceExpression">
+              <Code>Administrators</Code>
+              <Description />
+            </Complement>
+            <Predicate>
+              <Type>BelongsToGroup</Type>
+              <Value>True</Value>
+            </Predicate>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description i:nil="true" />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>user</Name>
+                <Type i:type="InternalType">
+                  <Type>Identity</Type>
+                </Type>
+                <Child i:nil="true" />
+              </RootPart>
+            </Subject>
+          </FilterBase>
+          <FilterBase i:type="Filter">
+            <Code i:nil="true" />
+            <Complement i:type="BaseReferenceExpression">
+              <Code>Configuratori</Code>
+              <Description />
+            </Complement>
+            <Predicate>
+              <Type>BelongsToGroup</Type>
+              <Value>True</Value>
+            </Predicate>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description i:nil="true" />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>user</Name>
+                <Type i:type="InternalType">
+                  <Type>Identity</Type>
+                </Type>
+                <Child i:nil="true" />
+              </RootPart>
+            </Subject>
+          </FilterBase>
+          <FilterBase i:type="Filter">
+            <Code i:nil="true" />
+            <Complement i:type="BaseReferenceExpression">
+              <Code>Automation</Code>
+              <Description />
+            </Complement>
+            <Predicate>
+              <Type>Is</Type>
+              <Value>True</Value>
+            </Predicate>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description i:nil="true" />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>user</Name>
+                <Type i:type="InternalType">
+                  <Type>Identity</Type>
+                </Type>
+                <Child i:nil="true" />
+              </RootPart>
+            </Subject>
+          </FilterBase>
+        </Filters>
+        <Operator>Or</Operator>
+      </ContextCondition>
+      <Id>BB6B39DB25BC45FBB162AD2000CCBCF3</Id>
+      <Permission>ReadOrganizationStructure UpdateOrganizationStructure UpdateResource DeleteResource RecustomizeResource ConfigureResourcePermissions BrowseResource CreateInstance CreateOrganizationalAssignments ShareResource DocumentAdministration</Permission>
+      <Name>Admins</Name>
+    </Item>
+    <Item>
+      <ContextCondition i:type="FilterGroup">
+        <Code i:nil="true" />
+        <Filters>
+          <FilterBase i:type="Filter">
+            <Code i:nil="true" />
+            <Complement i:type="BaseReferenceExpression">
+              <Code>Administrators</Code>
+              <Description />
+            </Complement>
+            <Predicate>
+              <Type>BelongsToGroup</Type>
+              <Value>True</Value>
+            </Predicate>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description i:nil="true" />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>user</Name>
+                <Type i:type="InternalType">
+                  <Type>Identity</Type>
+                </Type>
+                <Child i:nil="true" />
+              </RootPart>
+            </Subject>
+          </FilterBase>
+          <FilterBase i:type="Filter">
+            <Code i:nil="true" />
+            <Complement i:type="BaseReferenceExpression">
+              <Code>Consultatori</Code>
+              <Description />
+            </Complement>
+            <Predicate>
+              <Type>BelongsToGroup</Type>
+              <Value>True</Value>
+            </Predicate>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description i:nil="true" />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>user</Name>
+                <Type i:type="InternalType">
+                  <Type>Identity</Type>
+                </Type>
+                <Child i:nil="true" />
+              </RootPart>
+            </Subject>
+          </FilterBase>
+          <FilterBase i:type="Filter">
+            <Code i:nil="true" />
+            <Complement i:type="BaseReferenceExpression">
+              <Code>Automation</Code>
+              <Description />
+            </Complement>
+            <Predicate>
+              <Type>Is</Type>
+              <Value>True</Value>
+            </Predicate>
+            <Subject i:type="TypedSubject">
+              <Code />
+              <Description i:nil="true" />
+              <RootPart i:type="SubjectPartSimple">
+                <Name>user</Name>
+                <Type i:type="InternalType">
+                  <Type>Identity</Type>
+                </Type>
+                <Child i:nil="true" />
+              </RootPart>
+            </Subject>
+          </FilterBase>
+        </Filters>
+        <Operator>Or</Operator>
+      </ContextCondition>
+      <Id>05E308E3BDA346859380AD2000CD151F</Id>
+      <Permission>ReadResource ListResource</Permission>
+      <Name>Consultatori</Name>
+    </Item>
+  </AceList>
+  <BaseType>CustomType</BaseType>
+  <EmbeddedObjects />
+</AclModel>

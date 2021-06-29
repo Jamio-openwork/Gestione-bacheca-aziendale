@@ -1,0 +1,50 @@
+﻿<ResourceFile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.openworkbpm.com/schema">
+  <Definitions />
+  <Description i:nil="true" />
+  <DesignerVersion>28</DesignerVersion>
+  <Id i:nil="true" />
+  <Name>HBD_ARC_Configuratori</Name>
+  <ObjectType>ResourceFile</ObjectType>
+  <RepositoryId i:nil="true" />
+  <Version>0</Version>
+  <Items>
+    <ResourceStore>
+      <CustomizationReference />
+      <Id>38d72c9e-3f1e-4eea-90b1-77bcf42d34cb</Id>
+      <Resource i:type="GroupDefinition">
+        <ContextCondition i:type="FilterGroup">
+          <Code i:nil="true" />
+          <Filters>
+            <FilterBase i:type="Filter">
+              <Code i:nil="true" />
+              <Complement i:nil="true" />
+              <Predicate>
+                <Type>BelongsToAnyIdentityRepository</Type>
+                <Value>True</Value>
+              </Predicate>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>user</Name>
+                  <Type i:type="InternalType">
+                    <Type>Identity</Type>
+                  </Type>
+                  <Child i:nil="true" />
+                </RootPart>
+              </Subject>
+            </FilterBase>
+          </Filters>
+          <Operator>Or</Operator>
+        </ContextCondition>
+        <Description />
+        <EmbeddedObjects />
+        <Id i:nil="true" />
+        <Name>Configuratori</Name>
+        <RepositoryId i:nil="true" />
+        <Visibility>TenantAdministrators</Visibility>
+      </Resource>
+    </ResourceStore>
+  </Items>
+  <Type>GroupRepository</Type>
+</ResourceFile>

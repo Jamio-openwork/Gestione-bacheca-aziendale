@@ -1,0 +1,4558 @@
+﻿<CustomTypeModel xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.openworkbpm.com/schema">
+  <Definitions />
+  <Description i:nil="true" />
+  <DesignerVersion>28</DesignerVersion>
+  <Id i:nil="true" />
+  <Name>HBD_FRM_Bacheca</Name>
+  <ObjectType>CustomTypeModel</ObjectType>
+  <RepositoryId i:nil="true" />
+  <Version>0</Version>
+  <EmbeddedObjects />
+  <SeriesDefinition>
+    <Automatic>false</Automatic>
+    <Parameters />
+  </SeriesDefinition>
+  <TypeDefinition>
+    <Dictionary>
+      <Item>
+        <Key>ComAziendali</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>ComAziendali</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Reference</Type>
+          </Type>
+          <Filtering>
+            <ExcludedPredicates />
+            <Filterable>true</Filterable>
+            <DefaultPredicate i:nil="true" />
+          </Filtering>
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>News</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>News</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Reference</Type>
+          </Type>
+          <Filtering>
+            <ExcludedPredicates />
+            <Filterable>true</Filterable>
+            <DefaultPredicate i:nil="true" />
+          </Filtering>
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>Video</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>Video</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Reference</Type>
+          </Type>
+          <Filtering>
+            <ExcludedPredicates />
+            <Filterable>true</Filterable>
+            <DefaultPredicate i:nil="true" />
+          </Filtering>
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>Procedure</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>Procedure</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Reference</Type>
+          </Type>
+          <Filtering>
+            <ExcludedPredicates />
+            <Filterable>true</Filterable>
+            <DefaultPredicate i:nil="true" />
+          </Filtering>
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>OffLavoro</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>OffLavoro</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Reference</Type>
+          </Type>
+          <Filtering>
+            <ExcludedPredicates />
+            <Filterable>true</Filterable>
+            <DefaultPredicate i:nil="true" />
+          </Filtering>
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>NuoviAssunti</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>NuoviAssunti</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Reference</Type>
+          </Type>
+          <Filtering>
+            <ExcludedPredicates />
+            <Filterable>true</Filterable>
+            <DefaultPredicate i:nil="true" />
+          </Filtering>
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>SuccStory</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>SuccStory</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Reference</Type>
+          </Type>
+          <Filtering>
+            <ExcludedPredicates />
+            <Filterable>true</Filterable>
+            <DefaultPredicate i:nil="true" />
+          </Filtering>
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>ComAzPrimoPiano</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>ComAzPrimoPiano</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Reference</Type>
+          </Type>
+          <Filtering>
+            <ExcludedPredicates />
+            <Filterable>true</Filterable>
+            <DefaultPredicate i:nil="true" />
+          </Filtering>
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>NewsPrimoPiano</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>NewsPrimoPiano</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Reference</Type>
+          </Type>
+          <Filtering i:nil="true" />
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>VideoPrimoPiano</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>VideoPrimoPiano</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Memo</Type>
+          </Type>
+          <Filtering i:nil="true" />
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>ProcedurePrimoPiano</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>ProcedurePrimoPiano</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Reference</Type>
+          </Type>
+          <Filtering i:nil="true" />
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>OffLavoroPrimoPiano</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>OffLavoroPrimoPiano</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Reference</Type>
+          </Type>
+          <Filtering i:nil="true" />
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>NuoviAssuntiPrimoPiano</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>NuoviAssuntiPrimoPiano</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Reference</Type>
+          </Type>
+          <Filtering i:nil="true" />
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>SuccStoryPrimoPiano</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>SuccStoryPrimoPiano</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Reference</Type>
+          </Type>
+          <Filtering i:nil="true" />
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>ComunicazioniTotali</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>ComunicazioniTotali</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Integer</Type>
+          </Type>
+          <Filtering i:nil="true" />
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>NewsTotali</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>NewsTotali</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Integer</Type>
+          </Type>
+          <Filtering i:nil="true" />
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>ProcedureTotali</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>ProcedureTotali</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Integer</Type>
+          </Type>
+          <Filtering i:nil="true" />
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>OfferteLavoroTotali</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>OfferteLavoroTotali</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Integer</Type>
+          </Type>
+          <Filtering i:nil="true" />
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>NuoviAssuntiTotali</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>NuoviAssuntiTotali</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Integer</Type>
+          </Type>
+          <Filtering i:nil="true" />
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>SuccStoryTotali</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>SuccStoryTotali</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Integer</Type>
+          </Type>
+          <Filtering i:nil="true" />
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+      <Item>
+        <Key>VideoTotali</Key>
+        <Val>
+          <DefaultValueExpression i:nil="true" />
+          <DefaultValueReference i:nil="true" />
+          <Description i:nil="true" />
+          <Invalidable>false</Invalidable>
+          <IsArray>false</IsArray>
+          <IsUnique>false</IsUnique>
+          <IsUpgradable>false</IsUpgradable>
+          <Name>VideoTotali</Name>
+          <ReadOnly>false</ReadOnly>
+          <Required>false</Required>
+          <Type i:type="InternalType">
+            <Type>Integer</Type>
+          </Type>
+          <Filtering i:nil="true" />
+          <NotSortable>false</NotSortable>
+        </Val>
+      </Item>
+    </Dictionary>
+    <Description i:nil="true" />
+    <Name>HBD_FRM_Bacheca</Name>
+    <BaseType>Data</BaseType>
+    <Behaviour>
+      <Items>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Assertion">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>ComAziendali</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>News</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>Procedure</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>SuccStory</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>Video</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>NuoviAssunti</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>OffLavoro</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>ComAzPrimoPiano</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>ComunicazioniTotali</Name>
+                    <Type i:type="InternalType">
+                      <Type>Integer</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>NewsPrimoPiano</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>NewsTotali</Name>
+                    <Type i:type="InternalType">
+                      <Type>Integer</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>NuoviAssuntiPrimoPiano</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>NuoviAssuntiTotali</Name>
+                    <Type i:type="InternalType">
+                      <Type>Integer</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>OfferteLavoroTotali</Name>
+                    <Type i:type="InternalType">
+                      <Type>Integer</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>OffLavoroPrimoPiano</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>ProcedurePrimoPiano</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>ProcedureTotali</Name>
+                    <Type i:type="InternalType">
+                      <Type>Integer</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>SuccStoryPrimoPiano</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>SuccStoryTotali</Name>
+                    <Type i:type="InternalType">
+                      <Type>Integer</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>VideoPrimoPiano</Name>
+                    <Type i:type="InternalType">
+                      <Type>Memo</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>VideoTotali</Name>
+                    <Type i:type="InternalType">
+                      <Type>Integer</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Predicates>
+              <AssertionPredicate>
+                <Type>External</Type>
+                <Value>False</Value>
+                <Name>Changeable</Name>
+              </AssertionPredicate>
+            </Predicates>
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Assertion">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>ComunicazioniTotali</Name>
+                    <Type i:type="InternalType">
+                      <Type>Integer</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>NewsTotali</Name>
+                    <Type i:type="InternalType">
+                      <Type>Integer</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>NuoviAssuntiTotali</Name>
+                    <Type i:type="InternalType">
+                      <Type>Integer</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>OfferteLavoroTotali</Name>
+                    <Type i:type="InternalType">
+                      <Type>Integer</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>ProcedureTotali</Name>
+                    <Type i:type="InternalType">
+                      <Type>Integer</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>SuccStoryTotali</Name>
+                    <Type i:type="InternalType">
+                      <Type>Integer</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>VideoTotali</Name>
+                    <Type i:type="InternalType">
+                      <Type>Integer</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Predicates>
+              <AssertionPredicate>
+                <Type>External</Type>
+                <Value>False</Value>
+                <Name>Visible</Name>
+              </AssertionPredicate>
+            </Predicates>
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Assignment">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>ComAziendali</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Right i:type="BaseReferenceExpression">
+              <Code>CatalogoComAz</Code>
+              <Description />
+            </Right>
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Assignment">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>ComAziendali</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:type="SubjectPartSimple">
+                      <Name>Name</Name>
+                      <Type i:type="InternalType">
+                        <Type>String</Type>
+                      </Type>
+                      <Child i:nil="true" />
+                    </Child>
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Right>
+              <Code>'TUTTE LE COMUNICAZIONI AZIENDALI (' + #data.Fields['ComunicazioniTotali'] + ')'</Code>
+              <Description />
+            </Right>
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Assignment">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>News</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Right i:type="BaseReferenceExpression">
+              <Code>CatalogoNews</Code>
+              <Description />
+            </Right>
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Assignment">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>News</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:type="SubjectPartSimple">
+                      <Name>Name</Name>
+                      <Type i:type="InternalType">
+                        <Type>String</Type>
+                      </Type>
+                      <Child i:nil="true" />
+                    </Child>
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Right>
+              <Code>'TUTTE LE NEWS (' + #data.Fields['NewsTotali'] + ')'</Code>
+              <Description />
+            </Right>
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Assignment">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>NuoviAssunti</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Right i:type="BaseReferenceExpression">
+              <Code>CatalogoNuoviAssunti</Code>
+              <Description />
+            </Right>
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Assignment">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>OffLavoro</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Right i:type="BaseReferenceExpression">
+              <Code>CatalogoOffLav</Code>
+              <Description />
+            </Right>
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Assignment">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>OffLavoro</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:type="SubjectPartSimple">
+                      <Name>Name</Name>
+                      <Type i:type="InternalType">
+                        <Type>String</Type>
+                      </Type>
+                      <Child i:nil="true" />
+                    </Child>
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Right>
+              <Code>'TUTTE LE OFFERTE DI LAVORO (' + #data.Fields['OfferteLavoroTotali'] + ')'</Code>
+              <Description />
+            </Right>
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Assignment">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>NuoviAssunti</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:type="SubjectPartSimple">
+                      <Name>Name</Name>
+                      <Type i:type="InternalType">
+                        <Type>String</Type>
+                      </Type>
+                      <Child i:nil="true" />
+                    </Child>
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Right>
+              <Code>'TUTTI I NUOVI ASSUNTI (' + #data.Fields['NuoviAssuntiTotali'] +')'</Code>
+              <Description />
+            </Right>
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Assignment">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>Procedure</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Right i:type="BaseReferenceExpression">
+              <Code>CatalogoProcedure</Code>
+              <Description />
+            </Right>
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Assignment">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>Procedure</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:type="SubjectPartSimple">
+                      <Name>Name</Name>
+                      <Type i:type="InternalType">
+                        <Type>String</Type>
+                      </Type>
+                      <Child i:nil="true" />
+                    </Child>
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Right>
+              <Code>'TUTTE LE PROCEDURE (' + #data.Fields['ProcedureTotali'] + ')'</Code>
+              <Description />
+            </Right>
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Assignment">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>SuccStory</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Right i:type="BaseReferenceExpression">
+              <Code>CatalogoSuccStory</Code>
+              <Description />
+            </Right>
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Assignment">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>SuccStory</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:type="SubjectPartSimple">
+                      <Name>Name</Name>
+                      <Type i:type="InternalType">
+                        <Type>String</Type>
+                      </Type>
+                      <Child i:nil="true" />
+                    </Child>
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Right>
+              <Code>'TUTTE LE STORIE DI SUCCESSO (' + #data.Fields['SuccStoryTotali'] + ')'</Code>
+              <Description />
+            </Right>
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Assignment">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>Video</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Right i:type="BaseReferenceExpression">
+              <Code>CatalogoVideo</Code>
+              <Description />
+            </Right>
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Assignment">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>Video</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:type="SubjectPartSimple">
+                      <Name>Name</Name>
+                      <Type i:type="InternalType">
+                        <Type>String</Type>
+                      </Type>
+                      <Child i:nil="true" />
+                    </Child>
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Right>
+              <Code>'TUTTI I VIDEO (' + #data.Fields['VideoTotali'] + ')'</Code>
+              <Description />
+            </Right>
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Assignment">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartSimple">
+                    <Name>Name</Name>
+                    <Type i:type="InternalType">
+                      <Type>String</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Right>
+              <Code>'Bacheca Aziendale'</Code>
+              <Description />
+            </Right>
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Validation">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>ComAzPrimoPiano</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Complement i:type="BaseReferenceExpression">
+              <Code>CatalogoComAz</Code>
+              <Description />
+            </Complement>
+            <Predicate>
+              <Type>BelongsToCatalog</Type>
+              <Value>True</Value>
+            </Predicate>
+            <ValidationMessage i:nil="true" />
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Validation">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>NewsPrimoPiano</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Complement i:type="BaseReferenceExpression">
+              <Code>CatalogoNews</Code>
+              <Description />
+            </Complement>
+            <Predicate>
+              <Type>BelongsToCatalog</Type>
+              <Value>True</Value>
+            </Predicate>
+            <ValidationMessage i:nil="true" />
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Validation">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>NuoviAssuntiPrimoPiano</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Complement i:type="BaseReferenceExpression">
+              <Code>CatalogoNuoviAssunti</Code>
+              <Description />
+            </Complement>
+            <Predicate>
+              <Type>BelongsToCatalog</Type>
+              <Value>True</Value>
+            </Predicate>
+            <ValidationMessage i:nil="true" />
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Validation">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>OffLavoroPrimoPiano</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Complement i:type="BaseReferenceExpression">
+              <Code>CatalogoOffLav</Code>
+              <Description />
+            </Complement>
+            <Predicate>
+              <Type>BelongsToCatalog</Type>
+              <Value>True</Value>
+            </Predicate>
+            <ValidationMessage i:nil="true" />
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Validation">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>ProcedurePrimoPiano</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Complement i:type="BaseReferenceExpression">
+              <Code>CatalogoProcedure</Code>
+              <Description />
+            </Complement>
+            <Predicate>
+              <Type>BelongsToCatalog</Type>
+              <Value>True</Value>
+            </Predicate>
+            <ValidationMessage i:nil="true" />
+          </Fact>
+        </Item>
+        <Item i:type="SimpleRule">
+          <Fact i:type="Validation">
+            <Scope>All</Scope>
+            <Description i:nil="true" />
+            <Subjects>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>data</Name>
+                  <Type i:type="CustomType">
+                    <DefinitionBaseType>Data</DefinitionBaseType>
+                    <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                    <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                  </Type>
+                  <Child i:type="SubjectPartCustomField">
+                    <Name>SuccStoryPrimoPiano</Name>
+                    <Type i:type="InternalType">
+                      <Type>Reference</Type>
+                    </Type>
+                    <Child i:nil="true" />
+                  </Child>
+                </RootPart>
+              </Subject>
+            </Subjects>
+            <Complement i:type="BaseReferenceExpression">
+              <Code>CatalogoSuccStory</Code>
+              <Description />
+            </Complement>
+            <Predicate>
+              <Type>BelongsToCatalog</Type>
+              <Value>True</Value>
+            </Predicate>
+            <ValidationMessage i:nil="true" />
+          </Fact>
+        </Item>
+      </Items>
+      <Description i:nil="true" />
+      <Name i:nil="true" />
+    </Behaviour>
+    <DefaultLayout>Layout</DefaultLayout>
+    <Id>HBD_FRM_Bacheca</Id>
+    <LayoutDefinitions>
+      <Item>
+        <Key>Layout</Key>
+        <Val i:type="LayoutDefinition">
+          <Description i:nil="true" />
+          <Name>Layout</Name>
+          <TagList i:nil="true" />
+          <Icon i:nil="true" />
+          <HiddenMenuBar>false</HiddenMenuBar>
+          <HiddenInlineMenu>false</HiddenInlineMenu>
+          <Disabled>false</Disabled>
+          <PagingMode>Paged</PagingMode>
+          <Caption i:nil="true" />
+          <LayoutItems>
+            <Dictionary>
+              <Item>
+                <Key>Item4</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item4</Name>
+                  <GraphicInfo i:type="LabelGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>true</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>23</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>23</MinHeight>
+                      <MinWidth>231</MinWidth>
+                      <Width>509</Width>
+                      <X>0</X>
+                      <Y>26</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>TextAppearanceInfo</Key>
+                        <Val i:type="TextAppearanceInfo">
+                          <Alignment>left</Alignment>
+                          <BackColor />
+                          <Font>Segoe UI Symbol; 10pt; style=Bold</Font>
+                          <ForeColor>DarkRed</ForeColor>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item14</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>2</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>  In primo piano</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>true</TextVisible>
+                    </TextInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item5</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item5</Name>
+                  <GraphicInfo i:type="LabelGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>26</Height>
+                      <MaxHeight>25</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>26</MinHeight>
+                      <MinWidth>231</MinWidth>
+                      <Width>769</Width>
+                      <X>0</X>
+                      <Y>0</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>TextAppearanceInfo</Key>
+                        <Val i:type="TextAppearanceInfo">
+                          <Alignment>left</Alignment>
+                          <BackColor>LightBlue</BackColor>
+                          <Font>Segoe UI Symbol; 12pt; style=Bold</Font>
+                          <ForeColor>Black</ForeColor>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item14</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>1</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>COMUNICAZIONI AZIENDALI</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>true</TextVisible>
+                    </TextInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item6</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item6</Name>
+                  <GraphicInfo i:type="LabelGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>true</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>23</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>23</MinHeight>
+                      <MinWidth>231</MinWidth>
+                      <Width>509</Width>
+                      <X>0</X>
+                      <Y>26</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>TextAppearanceInfo</Key>
+                        <Val i:type="TextAppearanceInfo">
+                          <Alignment>left</Alignment>
+                          <BackColor />
+                          <Font>Segoe UI Symbol; 10pt; style=Bold</Font>
+                          <ForeColor>DarkRed</ForeColor>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item2</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>2</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>  In primo piano</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>true</TextVisible>
+                    </TextInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item8</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item8</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>769</Width>
+                      <X>0</X>
+                      <Y>50</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>ReferenceGraphicInfo</Key>
+                        <Val i:type="ReferenceGraphicInfo">
+                          <HideCatalog>false</HideCatalog>
+                          <HideFiles>true</HideFiles>
+                          <HideLink>true</HideLink>
+                          <HideNew>true</HideNew>
+                          <HideName>true</HideName>
+                          <HideAttachments>true</HideAttachments>
+                          <HideNavigation>false</HideNavigation>
+                          <HideFavorites>true</HideFavorites>
+                          <RemoveAttachmentOnDeleteOrUpdate>false</RemoveAttachmentOnDeleteOrUpdate>
+                          <HidePreview>true</HidePreview>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item14</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>3</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>COMUNICAZIONI AZIENDALI</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>Reference</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>ComAziendali</Name>
+                          <Type i:type="InternalType">
+                            <Type>Reference</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item9</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item9</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>769</Width>
+                      <X>0</X>
+                      <Y>50</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>ReferenceGraphicInfo</Key>
+                        <Val i:type="ReferenceGraphicInfo">
+                          <HideCatalog>true</HideCatalog>
+                          <HideFiles>true</HideFiles>
+                          <HideLink>true</HideLink>
+                          <HideNew>true</HideNew>
+                          <HideName>true</HideName>
+                          <HideAttachments>true</HideAttachments>
+                          <HideNavigation>false</HideNavigation>
+                          <HideFavorites>true</HideFavorites>
+                          <RemoveAttachmentOnDeleteOrUpdate>false</RemoveAttachmentOnDeleteOrUpdate>
+                          <HidePreview>true</HidePreview>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item2</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>3</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>NEWS</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>Reference</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>News</Name>
+                          <Type i:type="InternalType">
+                            <Type>Reference</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item14</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item14</Name>
+                  <GraphicInfo i:type="GroupGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>true</CustomSize>
+                      <Height>122</Height>
+                      <MaxHeight>146</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>122</MinHeight>
+                      <MinWidth>309</MinWidth>
+                      <Width>793</Width>
+                      <X>0</X>
+                      <Y>34</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName />
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>2</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>COMUNICAZIONI AZIENDALI</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>top</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <TabbedInfo i:nil="true" />
+                    <TableInfo>
+                      <Columns>
+                        <TableLayoutSegment>
+                          <Size>509</Size>
+                          <SizeType>Percentage</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>260</Size>
+                          <SizeType>Percentage</SizeType>
+                        </TableLayoutSegment>
+                      </Columns>
+                      <Rows>
+                        <TableLayoutSegment>
+                          <Size>26</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>24</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>24</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>25</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                      </Rows>
+                    </TableInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item1</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item1</Name>
+                  <GraphicInfo i:type="GroupGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>732</Height>
+                      <MaxHeight>0</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>252</MinHeight>
+                      <MinWidth>255</MinWidth>
+                      <Width>551</Width>
+                      <X>793</X>
+                      <Y>34</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName />
+                    <TableCellInfo>
+                      <Column>2</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>2</Row>
+                      <RowSpan>6</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>VIDEO</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>top</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <TabbedInfo i:nil="true" />
+                    <TableInfo>
+                      <Columns>
+                        <TableLayoutSegment>
+                          <Size>527</Size>
+                          <SizeType>Percentage</SizeType>
+                        </TableLayoutSegment>
+                      </Columns>
+                      <Rows>
+                        <TableLayoutSegment>
+                          <Size>26</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>635</Size>
+                          <SizeType>Percentage</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>24</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>24</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                      </Rows>
+                    </TableInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item2</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item2</Name>
+                  <GraphicInfo i:type="GroupGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>true</CustomSize>
+                      <Height>122</Height>
+                      <MaxHeight>146</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>122</MinHeight>
+                      <MinWidth>309</MinWidth>
+                      <Width>793</Width>
+                      <X>0</X>
+                      <Y>156</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName />
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>3</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>NEWS</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>top</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <TabbedInfo i:nil="true" />
+                    <TableInfo>
+                      <Columns>
+                        <TableLayoutSegment>
+                          <Size>509</Size>
+                          <SizeType>Percentage</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>260</Size>
+                          <SizeType>Percentage</SizeType>
+                        </TableLayoutSegment>
+                      </Columns>
+                      <Rows>
+                        <TableLayoutSegment>
+                          <Size>26</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>24</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>24</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>25</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                      </Rows>
+                    </TableInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item11</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item11</Name>
+                  <GraphicInfo i:type="LabelGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>26</Height>
+                      <MaxHeight>25</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>26</MinHeight>
+                      <MinWidth>231</MinWidth>
+                      <Width>769</Width>
+                      <X>0</X>
+                      <Y>0</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>TextAppearanceInfo</Key>
+                        <Val i:type="TextAppearanceInfo">
+                          <Alignment>left</Alignment>
+                          <BackColor>Cornsilk</BackColor>
+                          <Font>Segoe UI Symbol; 12pt; style=Bold</Font>
+                          <ForeColor />
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item2</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>1</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>NEWS</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>true</TextVisible>
+                    </TextInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item7</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item7</Name>
+                  <GraphicInfo i:type="LabelGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>true</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>23</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>23</MinHeight>
+                      <MinWidth>231</MinWidth>
+                      <Width>509</Width>
+                      <X>0</X>
+                      <Y>26</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>TextAppearanceInfo</Key>
+                        <Val i:type="TextAppearanceInfo">
+                          <Alignment>left</Alignment>
+                          <BackColor />
+                          <Font>Segoe UI Symbol; 10pt; style=Bold</Font>
+                          <ForeColor>DarkRed</ForeColor>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item15</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>2</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>  In primo piano</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>true</TextVisible>
+                    </TextInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item15</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item15</Name>
+                  <GraphicInfo i:type="GroupGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>true</CustomSize>
+                      <Height>122</Height>
+                      <MaxHeight>146</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>122</MinHeight>
+                      <MinWidth>309</MinWidth>
+                      <Width>793</Width>
+                      <X>0</X>
+                      <Y>278</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName />
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>4</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>PROCEDURE</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>top</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <TabbedInfo i:nil="true" />
+                    <TableInfo>
+                      <Columns>
+                        <TableLayoutSegment>
+                          <Size>509</Size>
+                          <SizeType>Percentage</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>260</Size>
+                          <SizeType>Percentage</SizeType>
+                        </TableLayoutSegment>
+                      </Columns>
+                      <Rows>
+                        <TableLayoutSegment>
+                          <Size>26</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>24</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>24</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>25</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                      </Rows>
+                    </TableInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item16</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item16</Name>
+                  <GraphicInfo i:type="LabelGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>26</Height>
+                      <MaxHeight>25</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>26</MinHeight>
+                      <MinWidth>231</MinWidth>
+                      <Width>769</Width>
+                      <X>0</X>
+                      <Y>0</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>TextAppearanceInfo</Key>
+                        <Val i:type="TextAppearanceInfo">
+                          <Alignment>left</Alignment>
+                          <BackColor>Honeydew</BackColor>
+                          <Font>Segoe UI Symbol; 12pt; style=Bold</Font>
+                          <ForeColor />
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item15</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>1</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>PROCEDURE</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>true</TextVisible>
+                    </TextInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item17</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item17</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>769</Width>
+                      <X>0</X>
+                      <Y>50</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>ReferenceGraphicInfo</Key>
+                        <Val i:type="ReferenceGraphicInfo">
+                          <HideCatalog>true</HideCatalog>
+                          <HideFiles>true</HideFiles>
+                          <HideLink>true</HideLink>
+                          <HideNew>true</HideNew>
+                          <HideName>true</HideName>
+                          <HideAttachments>true</HideAttachments>
+                          <HideNavigation>false</HideNavigation>
+                          <HideFavorites>true</HideFavorites>
+                          <RemoveAttachmentOnDeleteOrUpdate>false</RemoveAttachmentOnDeleteOrUpdate>
+                          <HidePreview>true</HidePreview>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item15</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>3</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Procedure</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>Reference</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>Procedure</Name>
+                          <Type i:type="InternalType">
+                            <Type>Reference</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item19</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item19</Name>
+                  <GraphicInfo i:type="LabelGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>true</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>23</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>23</MinHeight>
+                      <MinWidth>231</MinWidth>
+                      <Width>509</Width>
+                      <X>0</X>
+                      <Y>26</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>TextAppearanceInfo</Key>
+                        <Val i:type="TextAppearanceInfo">
+                          <Alignment>left</Alignment>
+                          <BackColor />
+                          <Font>Segoe UI Symbol; 10pt; style=Bold</Font>
+                          <ForeColor>DarkRed</ForeColor>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item20</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>2</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>  In primo piano</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>true</TextVisible>
+                    </TextInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item20</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item20</Name>
+                  <GraphicInfo i:type="GroupGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>true</CustomSize>
+                      <Height>122</Height>
+                      <MaxHeight>146</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>122</MinHeight>
+                      <MinWidth>309</MinWidth>
+                      <Width>793</Width>
+                      <X>0</X>
+                      <Y>400</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName />
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>5</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>OFFERTE DI LAVORO</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>top</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <TabbedInfo i:nil="true" />
+                    <TableInfo>
+                      <Columns>
+                        <TableLayoutSegment>
+                          <Size>509</Size>
+                          <SizeType>Percentage</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>260</Size>
+                          <SizeType>Percentage</SizeType>
+                        </TableLayoutSegment>
+                      </Columns>
+                      <Rows>
+                        <TableLayoutSegment>
+                          <Size>26</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>24</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>24</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>25</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                      </Rows>
+                    </TableInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item21</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item21</Name>
+                  <GraphicInfo i:type="LabelGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>26</Height>
+                      <MaxHeight>25</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>26</MinHeight>
+                      <MinWidth>231</MinWidth>
+                      <Width>769</Width>
+                      <X>0</X>
+                      <Y>0</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>TextAppearanceInfo</Key>
+                        <Val i:type="TextAppearanceInfo">
+                          <Alignment>left</Alignment>
+                          <BackColor>Orange</BackColor>
+                          <Font>Segoe UI Symbol; 12pt; style=Bold</Font>
+                          <ForeColor />
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item20</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>1</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>OFFERTE DI LAVORO</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>true</TextVisible>
+                    </TextInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item22</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item22</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>769</Width>
+                      <X>0</X>
+                      <Y>50</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>ReferenceGraphicInfo</Key>
+                        <Val i:type="ReferenceGraphicInfo">
+                          <HideCatalog>true</HideCatalog>
+                          <HideFiles>true</HideFiles>
+                          <HideLink>true</HideLink>
+                          <HideNew>true</HideNew>
+                          <HideName>true</HideName>
+                          <HideAttachments>true</HideAttachments>
+                          <HideNavigation>false</HideNavigation>
+                          <HideFavorites>true</HideFavorites>
+                          <RemoveAttachmentOnDeleteOrUpdate>false</RemoveAttachmentOnDeleteOrUpdate>
+                          <HidePreview>true</HidePreview>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item20</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>3</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Offerte di lavoro</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>Reference</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>OffLavoro</Name>
+                          <Type i:type="InternalType">
+                            <Type>Reference</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item24</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item24</Name>
+                  <GraphicInfo i:type="LabelGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>true</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>23</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>23</MinHeight>
+                      <MinWidth>231</MinWidth>
+                      <Width>509</Width>
+                      <X>0</X>
+                      <Y>26</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>TextAppearanceInfo</Key>
+                        <Val i:type="TextAppearanceInfo">
+                          <Alignment>left</Alignment>
+                          <BackColor />
+                          <Font>Segoe UI Symbol; 10pt; style=Bold</Font>
+                          <ForeColor>DarkRed</ForeColor>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item25</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>2</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>  In primo piano</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>true</TextVisible>
+                    </TextInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item25</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item25</Name>
+                  <GraphicInfo i:type="GroupGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>true</CustomSize>
+                      <Height>122</Height>
+                      <MaxHeight>146</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>122</MinHeight>
+                      <MinWidth>309</MinWidth>
+                      <Width>793</Width>
+                      <X>0</X>
+                      <Y>522</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName />
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>6</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>NUOVI ASSUNTI</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>top</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <TabbedInfo i:nil="true" />
+                    <TableInfo>
+                      <Columns>
+                        <TableLayoutSegment>
+                          <Size>509</Size>
+                          <SizeType>Percentage</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>260</Size>
+                          <SizeType>Percentage</SizeType>
+                        </TableLayoutSegment>
+                      </Columns>
+                      <Rows>
+                        <TableLayoutSegment>
+                          <Size>26</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>24</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>24</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>25</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                      </Rows>
+                    </TableInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item26</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item26</Name>
+                  <GraphicInfo i:type="LabelGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>26</Height>
+                      <MaxHeight>25</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>26</MinHeight>
+                      <MinWidth>231</MinWidth>
+                      <Width>769</Width>
+                      <X>0</X>
+                      <Y>0</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>TextAppearanceInfo</Key>
+                        <Val i:type="TextAppearanceInfo">
+                          <Alignment>left</Alignment>
+                          <BackColor>LightBlue</BackColor>
+                          <Font>Segoe UI Symbol; 12pt; style=Bold</Font>
+                          <ForeColor />
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item25</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>1</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>NUOVI ASSUNTI</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>true</TextVisible>
+                    </TextInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item27</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item27</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>769</Width>
+                      <X>0</X>
+                      <Y>50</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>ReferenceGraphicInfo</Key>
+                        <Val i:type="ReferenceGraphicInfo">
+                          <HideCatalog>true</HideCatalog>
+                          <HideFiles>true</HideFiles>
+                          <HideLink>true</HideLink>
+                          <HideNew>true</HideNew>
+                          <HideName>true</HideName>
+                          <HideAttachments>true</HideAttachments>
+                          <HideNavigation>false</HideNavigation>
+                          <HideFavorites>true</HideFavorites>
+                          <RemoveAttachmentOnDeleteOrUpdate>false</RemoveAttachmentOnDeleteOrUpdate>
+                          <HidePreview>true</HidePreview>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item25</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>3</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Nuovi assunti</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>Reference</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>NuoviAssunti</Name>
+                          <Type i:type="InternalType">
+                            <Type>Reference</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item29</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item29</Name>
+                  <GraphicInfo i:type="LabelGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>true</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>23</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>23</MinHeight>
+                      <MinWidth>231</MinWidth>
+                      <Width>509</Width>
+                      <X>0</X>
+                      <Y>26</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>TextAppearanceInfo</Key>
+                        <Val i:type="TextAppearanceInfo">
+                          <Alignment>left</Alignment>
+                          <BackColor />
+                          <Font>Segoe UI Symbol; 10pt; style=Bold</Font>
+                          <ForeColor>DarkRed</ForeColor>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item30</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>2</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>  In primo piano</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>true</TextVisible>
+                    </TextInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item30</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item30</Name>
+                  <GraphicInfo i:type="GroupGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>true</CustomSize>
+                      <Height>127</Height>
+                      <MaxHeight>146</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>122</MinHeight>
+                      <MinWidth>309</MinWidth>
+                      <Width>793</Width>
+                      <X>0</X>
+                      <Y>644</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName />
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>7</Row>
+                      <RowSpan>2</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>SUCCESS STORY</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>top</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <TabbedInfo i:nil="true" />
+                    <TableInfo>
+                      <Columns>
+                        <TableLayoutSegment>
+                          <Size>509</Size>
+                          <SizeType>Percentage</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>260</Size>
+                          <SizeType>Percentage</SizeType>
+                        </TableLayoutSegment>
+                      </Columns>
+                      <Rows>
+                        <TableLayoutSegment>
+                          <Size>26</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>24</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>24</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                        <TableLayoutSegment>
+                          <Size>30</Size>
+                          <SizeType>Default</SizeType>
+                        </TableLayoutSegment>
+                      </Rows>
+                    </TableInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item31</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item31</Name>
+                  <GraphicInfo i:type="LabelGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>26</Height>
+                      <MaxHeight>25</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>26</MinHeight>
+                      <MinWidth>231</MinWidth>
+                      <Width>769</Width>
+                      <X>0</X>
+                      <Y>0</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>TextAppearanceInfo</Key>
+                        <Val i:type="TextAppearanceInfo">
+                          <Alignment>left</Alignment>
+                          <BackColor>LightGrey</BackColor>
+                          <Font>Segoe UI Symbol; 12pt; style=Bold</Font>
+                          <ForeColor />
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item30</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>1</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>SUCCESS STORY</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>true</TextVisible>
+                    </TextInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item32</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item32</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>769</Width>
+                      <X>0</X>
+                      <Y>50</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>ReferenceGraphicInfo</Key>
+                        <Val i:type="ReferenceGraphicInfo">
+                          <HideCatalog>true</HideCatalog>
+                          <HideFiles>true</HideFiles>
+                          <HideLink>true</HideLink>
+                          <HideNew>true</HideNew>
+                          <HideName>true</HideName>
+                          <HideAttachments>true</HideAttachments>
+                          <HideNavigation>false</HideNavigation>
+                          <HideFavorites>true</HideFavorites>
+                          <RemoveAttachmentOnDeleteOrUpdate>false</RemoveAttachmentOnDeleteOrUpdate>
+                          <HidePreview>true</HidePreview>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item30</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>3</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Success Story</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>Reference</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>SuccStory</Name>
+                          <Type i:type="InternalType">
+                            <Type>Reference</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item36</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item36</Name>
+                  <GraphicInfo i:type="LabelGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>26</Height>
+                      <MaxHeight>25</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>26</MinHeight>
+                      <MinWidth>231</MinWidth>
+                      <Width>527</Width>
+                      <X>0</X>
+                      <Y>0</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>TextAppearanceInfo</Key>
+                        <Val i:type="TextAppearanceInfo">
+                          <Alignment>left</Alignment>
+                          <BackColor>Moccasin</BackColor>
+                          <Font>Segoe UI Symbol; 12pt; style=Bold</Font>
+                          <ForeColor />
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item1</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>1</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>VIDEO</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>true</TextVisible>
+                    </TextInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item37</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item37</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>527</Width>
+                      <X>0</X>
+                      <Y>661</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>ReferenceGraphicInfo</Key>
+                        <Val i:type="ReferenceGraphicInfo">
+                          <HideCatalog>false</HideCatalog>
+                          <HideFiles>true</HideFiles>
+                          <HideLink>false</HideLink>
+                          <HideNew>true</HideNew>
+                          <HideName>false</HideName>
+                          <HideAttachments>true</HideAttachments>
+                          <HideNavigation>false</HideNavigation>
+                          <HideFavorites>true</HideFavorites>
+                          <RemoveAttachmentOnDeleteOrUpdate>false</RemoveAttachmentOnDeleteOrUpdate>
+                          <HidePreview>false</HidePreview>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item1</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>3</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Video</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>Reference</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>Video</Name>
+                          <Type i:type="InternalType">
+                            <Type>Reference</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item39</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item39</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>260</Width>
+                      <X>509</X>
+                      <Y>26</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>ReferenceGraphicInfo</Key>
+                        <Val i:type="ReferenceGraphicInfo">
+                          <HideCatalog>true</HideCatalog>
+                          <HideFiles>true</HideFiles>
+                          <HideLink>true</HideLink>
+                          <HideNew>true</HideNew>
+                          <HideName>true</HideName>
+                          <HideAttachments>true</HideAttachments>
+                          <HideNavigation>false</HideNavigation>
+                          <HideFavorites>true</HideFavorites>
+                          <RemoveAttachmentOnDeleteOrUpdate>false</RemoveAttachmentOnDeleteOrUpdate>
+                          <HidePreview>true</HidePreview>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item14</ParentName>
+                    <TableCellInfo>
+                      <Column>2</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>2</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Com Az Primo piano</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>Reference</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>ComAzPrimoPiano</Name>
+                          <Type i:type="InternalType">
+                            <Type>Reference</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item40</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item40</Name>
+                  <GraphicInfo i:type="LabelGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>true</CustomSize>
+                      <Height>34</Height>
+                      <MaxHeight>34</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>34</MinHeight>
+                      <MinWidth>185</MinWidth>
+                      <Width>1344</Width>
+                      <X>0</X>
+                      <Y>0</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>TextAppearanceInfo</Key>
+                        <Val i:type="TextAppearanceInfo">
+                          <Alignment>center</Alignment>
+                          <BackColor>Gainsboro</BackColor>
+                          <Font>Segoe UI; 16pt; style=Bold</Font>
+                          <ForeColor>White</ForeColor>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName />
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>1</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>BACHECA AZIENDALE</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>true</TextVisible>
+                    </TextInfo>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:nil="true" />
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item43</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item43</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>260</Width>
+                      <X>509</X>
+                      <Y>26</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>ReferenceGraphicInfo</Key>
+                        <Val i:type="ReferenceGraphicInfo">
+                          <HideCatalog>true</HideCatalog>
+                          <HideFiles>true</HideFiles>
+                          <HideLink>true</HideLink>
+                          <HideNew>true</HideNew>
+                          <HideName>true</HideName>
+                          <HideAttachments>true</HideAttachments>
+                          <HideNavigation>false</HideNavigation>
+                          <HideFavorites>true</HideFavorites>
+                          <RemoveAttachmentOnDeleteOrUpdate>false</RemoveAttachmentOnDeleteOrUpdate>
+                          <HidePreview>true</HidePreview>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item2</ParentName>
+                    <TableCellInfo>
+                      <Column>2</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>2</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>NewsPrimoPiano</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>default</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>Reference</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>NewsPrimoPiano</Name>
+                          <Type i:type="InternalType">
+                            <Type>Reference</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item44</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item44</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>260</Width>
+                      <X>509</X>
+                      <Y>26</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>ReferenceGraphicInfo</Key>
+                        <Val i:type="ReferenceGraphicInfo">
+                          <HideCatalog>true</HideCatalog>
+                          <HideFiles>true</HideFiles>
+                          <HideLink>true</HideLink>
+                          <HideNew>true</HideNew>
+                          <HideName>true</HideName>
+                          <HideAttachments>true</HideAttachments>
+                          <HideNavigation>false</HideNavigation>
+                          <HideFavorites>true</HideFavorites>
+                          <RemoveAttachmentOnDeleteOrUpdate>false</RemoveAttachmentOnDeleteOrUpdate>
+                          <HidePreview>true</HidePreview>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item15</ParentName>
+                    <TableCellInfo>
+                      <Column>2</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>2</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>ProcPrimoPiano</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>Reference</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>ProcedurePrimoPiano</Name>
+                          <Type i:type="InternalType">
+                            <Type>Reference</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item45</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item45</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>260</Width>
+                      <X>509</X>
+                      <Y>26</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>ReferenceGraphicInfo</Key>
+                        <Val i:type="ReferenceGraphicInfo">
+                          <HideCatalog>true</HideCatalog>
+                          <HideFiles>true</HideFiles>
+                          <HideLink>true</HideLink>
+                          <HideNew>true</HideNew>
+                          <HideName>true</HideName>
+                          <HideAttachments>true</HideAttachments>
+                          <HideNavigation>false</HideNavigation>
+                          <HideFavorites>true</HideFavorites>
+                          <RemoveAttachmentOnDeleteOrUpdate>false</RemoveAttachmentOnDeleteOrUpdate>
+                          <HidePreview>true</HidePreview>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item20</ParentName>
+                    <TableCellInfo>
+                      <Column>2</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>2</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>OffPrimoPiano</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>Reference</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>OffLavoroPrimoPiano</Name>
+                          <Type i:type="InternalType">
+                            <Type>Reference</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item46</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item46</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>260</Width>
+                      <X>509</X>
+                      <Y>26</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>ReferenceGraphicInfo</Key>
+                        <Val i:type="ReferenceGraphicInfo">
+                          <HideCatalog>true</HideCatalog>
+                          <HideFiles>true</HideFiles>
+                          <HideLink>true</HideLink>
+                          <HideNew>true</HideNew>
+                          <HideName>true</HideName>
+                          <HideAttachments>true</HideAttachments>
+                          <HideNavigation>false</HideNavigation>
+                          <HideFavorites>true</HideFavorites>
+                          <RemoveAttachmentOnDeleteOrUpdate>false</RemoveAttachmentOnDeleteOrUpdate>
+                          <HidePreview>true</HidePreview>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item25</ParentName>
+                    <TableCellInfo>
+                      <Column>2</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>2</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>NuoviAssuntiPrimoPiano</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>Reference</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>NuoviAssuntiPrimoPiano</Name>
+                          <Type i:type="InternalType">
+                            <Type>Reference</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item47</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item47</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>260</Width>
+                      <X>509</X>
+                      <Y>26</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos>
+                      <Item>
+                        <Key>ReferenceGraphicInfo</Key>
+                        <Val i:type="ReferenceGraphicInfo">
+                          <HideCatalog>true</HideCatalog>
+                          <HideFiles>true</HideFiles>
+                          <HideLink>true</HideLink>
+                          <HideNew>true</HideNew>
+                          <HideName>true</HideName>
+                          <HideAttachments>true</HideAttachments>
+                          <HideNavigation>false</HideNavigation>
+                          <HideFavorites>true</HideFavorites>
+                          <RemoveAttachmentOnDeleteOrUpdate>false</RemoveAttachmentOnDeleteOrUpdate>
+                          <HidePreview>true</HidePreview>
+                        </Val>
+                      </Item>
+                    </AdditionalGraphicInfos>
+                    <ParentName>Item30</ParentName>
+                    <TableCellInfo>
+                      <Column>2</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>2</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>SuccPrimoPiano</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>Reference</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>SuccStoryPrimoPiano</Name>
+                          <Type i:type="InternalType">
+                            <Type>Reference</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item48</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item48</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>635</Height>
+                      <MaxHeight>0</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>154</MinHeight>
+                      <MinWidth>154</MinWidth>
+                      <Width>527</Width>
+                      <X>0</X>
+                      <Y>26</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName>Item1</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>2</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Item48</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>RichTextArea</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>VideoPrimoPiano</Name>
+                          <Type i:type="InternalType">
+                            <Type>Memo</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item3</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item3</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>25</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>769</Width>
+                      <X>0</X>
+                      <Y>74</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName>Item14</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>4</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Item3</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>TextBox</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>ComunicazioniTotali</Name>
+                          <Type i:type="InternalType">
+                            <Type>Integer</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item13</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item13</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>25</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>769</Width>
+                      <X>0</X>
+                      <Y>74</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName>Item2</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>4</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Item13</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>TextBox</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>NewsTotali</Name>
+                          <Type i:type="InternalType">
+                            <Type>Integer</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item12</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item12</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>25</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>769</Width>
+                      <X>0</X>
+                      <Y>74</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName>Item15</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>4</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Item12</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>TextBox</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>ProcedureTotali</Name>
+                          <Type i:type="InternalType">
+                            <Type>Integer</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item18</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item18</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>25</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>769</Width>
+                      <X>0</X>
+                      <Y>74</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName>Item20</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>4</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Item18</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>TextBox</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>OfferteLavoroTotali</Name>
+                          <Type i:type="InternalType">
+                            <Type>Integer</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item23</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item23</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>25</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>769</Width>
+                      <X>0</X>
+                      <Y>74</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName>Item25</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>4</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Item23</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>TextBox</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>NuoviAssuntiTotali</Name>
+                          <Type i:type="InternalType">
+                            <Type>Integer</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item28</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item28</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>30</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>769</Width>
+                      <X>0</X>
+                      <Y>74</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName>Item30</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>2</ColumnSpan>
+                      <Row>4</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Item28</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>TextBox</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>SuccStoryTotali</Name>
+                          <Type i:type="InternalType">
+                            <Type>Integer</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+              <Item>
+                <Key>Item33</Key>
+                <Val>
+                  <Description i:nil="true" />
+                  <Name>Item33</Name>
+                  <GraphicInfo i:type="ControlGraphicInfo">
+                    <AbsoluteLayoutInfo>
+                      <CustomSize>false</CustomSize>
+                      <Height>24</Height>
+                      <MaxHeight>24</MaxHeight>
+                      <MaxWidth>0</MaxWidth>
+                      <MinHeight>24</MinHeight>
+                      <MinWidth>54</MinWidth>
+                      <Width>527</Width>
+                      <X>0</X>
+                      <Y>685</Y>
+                    </AbsoluteLayoutInfo>
+                    <AdditionalGraphicInfos />
+                    <ParentName>Item1</ParentName>
+                    <TableCellInfo>
+                      <Column>1</Column>
+                      <ColumnSpan>1</ColumnSpan>
+                      <Row>4</Row>
+                      <RowSpan>1</RowSpan>
+                    </TableCellInfo>
+                    <TextInfo>
+                      <Text>
+                        <Default>Item33</Default>
+                        <Others />
+                      </Text>
+                      <TextDistance>0</TextDistance>
+                      <TextLocation>left</TextLocation>
+                      <TextVisible>false</TextVisible>
+                    </TextInfo>
+                    <ControlType>TextBox</ControlType>
+                  </GraphicInfo>
+                  <LogicInfo>
+                    <AdditionalLogicInfos />
+                    <DataSource i:type="TypedSubject">
+                      <Code />
+                      <Description />
+                      <RootPart i:type="SubjectPartSimple">
+                        <Name>data</Name>
+                        <Type i:type="CustomType">
+                          <DefinitionBaseType>Data</DefinitionBaseType>
+                          <DefinitionName>HBD_FRM_Bacheca</DefinitionName>
+                          <DefinitionReference>HBD_FRM_Bacheca</DefinitionReference>
+                        </Type>
+                        <Child i:type="SubjectPartCustomField">
+                          <Name>VideoTotali</Name>
+                          <Type i:type="InternalType">
+                            <Type>Integer</Type>
+                          </Type>
+                          <Child i:nil="true" />
+                        </Child>
+                      </RootPart>
+                    </DataSource>
+                  </LogicInfo>
+                </Val>
+              </Item>
+            </Dictionary>
+          </LayoutItems>
+          <RootGraphicInfo>
+            <AbsoluteLayoutInfo>
+              <CustomSize>true</CustomSize>
+              <Height>786</Height>
+              <MaxHeight>806</MaxHeight>
+              <MaxWidth>0</MaxWidth>
+              <MinHeight>786</MinHeight>
+              <MinWidth>584</MinWidth>
+              <Width>1364</Width>
+              <X>0</X>
+              <Y>0</Y>
+            </AbsoluteLayoutInfo>
+            <AdditionalGraphicInfos />
+            <ParentName />
+            <TableCellInfo>
+              <Column>1</Column>
+              <ColumnSpan>1</ColumnSpan>
+              <Row>1</Row>
+              <RowSpan>1</RowSpan>
+            </TableCellInfo>
+            <TextInfo>
+              <Text>
+                <Default>Root</Default>
+                <Others />
+              </Text>
+              <TextDistance>0</TextDistance>
+              <TextLocation>top</TextLocation>
+              <TextVisible>false</TextVisible>
+            </TextInfo>
+            <TabbedInfo i:nil="true" />
+            <TableInfo>
+              <Columns>
+                <TableLayoutSegment>
+                  <Size>793</Size>
+                  <SizeType>Percentage</SizeType>
+                </TableLayoutSegment>
+                <TableLayoutSegment>
+                  <Size>551</Size>
+                  <SizeType>Percentage</SizeType>
+                </TableLayoutSegment>
+              </Columns>
+              <Rows>
+                <TableLayoutSegment>
+                  <Size>34</Size>
+                  <SizeType>Default</SizeType>
+                </TableLayoutSegment>
+                <TableLayoutSegment>
+                  <Size>122</Size>
+                  <SizeType>Default</SizeType>
+                </TableLayoutSegment>
+                <TableLayoutSegment>
+                  <Size>122</Size>
+                  <SizeType>Default</SizeType>
+                </TableLayoutSegment>
+                <TableLayoutSegment>
+                  <Size>122</Size>
+                  <SizeType>Default</SizeType>
+                </TableLayoutSegment>
+                <TableLayoutSegment>
+                  <Size>122</Size>
+                  <SizeType>Default</SizeType>
+                </TableLayoutSegment>
+                <TableLayoutSegment>
+                  <Size>122</Size>
+                  <SizeType>Default</SizeType>
+                </TableLayoutSegment>
+                <TableLayoutSegment>
+                  <Size>122</Size>
+                  <SizeType>Default</SizeType>
+                </TableLayoutSegment>
+                <TableLayoutSegment>
+                  <Size>5</Size>
+                  <SizeType>Default</SizeType>
+                </TableLayoutSegment>
+              </Rows>
+            </TableInfo>
+          </RootGraphicInfo>
+          <HideAttachments>true</HideAttachments>
+          <HideComponents>true</HideComponents>
+        </Val>
+      </Item>
+    </LayoutDefinitions>
+    <RelatedCatalogs />
+    <MappingDefinitions />
+    <CustomActions />
+    <BarcodeSettings i:nil="true" />
+    <LocalizationResources />
+  </TypeDefinition>
+  <Parameters>
+    <AuthorizationSchemaName>HBD_TYP_DocumentoBacheca</AuthorizationSchemaName>
+    <CategoryName>Human Resources</CategoryName>
+    <Name>Bacheca</Name>
+  </Parameters>
+</CustomTypeModel>

@@ -1,0 +1,53 @@
+﻿<ResourceFile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.openworkbpm.com/schema">
+  <Definitions />
+  <Description i:nil="true" />
+  <DesignerVersion>28</DesignerVersion>
+  <Id i:nil="true" />
+  <Name>HBD_ARC_Consultatori</Name>
+  <ObjectType>ResourceFile</ObjectType>
+  <RepositoryId i:nil="true" />
+  <Version>0</Version>
+  <Items>
+    <ResourceStore>
+      <CustomizationReference />
+      <Id>69625861-0de3-4aa4-b41c-cb60fbcf3221</Id>
+      <Resource i:type="GroupDefinition">
+        <ContextCondition i:type="FilterGroup">
+          <Code i:nil="true" />
+          <Filters>
+            <FilterBase i:type="Filter">
+              <Code i:nil="true" />
+              <Complement i:type="BaseReferenceExpression">
+                <Code>Administrators</Code>
+                <Description />
+              </Complement>
+              <Predicate>
+                <Type>BelongsToGroup</Type>
+                <Value>True</Value>
+              </Predicate>
+              <Subject i:type="TypedSubject">
+                <Code />
+                <Description i:nil="true" />
+                <RootPart i:type="SubjectPartSimple">
+                  <Name>user</Name>
+                  <Type i:type="InternalType">
+                    <Type>Identity</Type>
+                  </Type>
+                  <Child i:nil="true" />
+                </RootPart>
+              </Subject>
+            </FilterBase>
+          </Filters>
+          <Operator>Or</Operator>
+        </ContextCondition>
+        <Description />
+        <EmbeddedObjects />
+        <Id i:nil="true" />
+        <Name>Consultatori</Name>
+        <RepositoryId i:nil="true" />
+        <Visibility>TenantAdministrators</Visibility>
+      </Resource>
+    </ResourceStore>
+  </Items>
+  <Type>GroupRepository</Type>
+</ResourceFile>

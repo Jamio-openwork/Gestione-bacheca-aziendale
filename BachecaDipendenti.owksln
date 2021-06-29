@@ -1,0 +1,411 @@
+﻿<SolutionFile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.openworkbpm.com/schema">
+  <CurrentPlanName>Corso47</CurrentPlanName>
+  <Description i:nil="true" />
+  <EditorVersion>28</EditorVersion>
+  <Id>37193694-50f6-4060-8018-149e80753275</Id>
+  <Name>BachecaDipendenti</Name>
+  <References>
+    <AliasDefinitionStore>
+      <Description>Identità amministratore dell'area</Description>
+      <Name>Administrator</Name>
+      <ResourceId>00000000000000000000000000000000</ResourceId>
+      <Type>Identity</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description>Gruppo degli amministratori dell'area</Description>
+      <Name>Administrators</Name>
+      <ResourceId>00000000000000000000000000000000</ResourceId>
+      <Type>Group</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description>Identità Automation dell'area</Description>
+      <Name>Automation</Name>
+      <ResourceId>00000000000000000000000000000000</ResourceId>
+      <Type>Identity</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>HBD_TYP_DocumentoBacheca</Name>
+      <ResourceId i:nil="true" />
+      <Type>AclModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>CatalogoComAz</Name>
+      <ResourceId>HSD_ElencoDocComAziendali</ResourceId>
+      <Type>Catalog</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>CatalogoNews</Name>
+      <ResourceId>HSD_ElencoDocNews</ResourceId>
+      <Type>Catalog</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>CatalogoNuoviAssunti</Name>
+      <ResourceId>HSD_ElencoDocNuoviAssunti</ResourceId>
+      <Type>Catalog</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>CatalogoOffLav</Name>
+      <ResourceId>HSD_ElencoDocOffLavoro</ResourceId>
+      <Type>Catalog</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>CatalogoProcedure</Name>
+      <ResourceId>HSD_ElencoDocProcedure</ResourceId>
+      <Type>Catalog</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>CatalogoSuccStory</Name>
+      <ResourceId>HSD_ElencoDocSuccStory</ResourceId>
+      <Type>Catalog</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>CatalogoVideo</Name>
+      <ResourceId>HSD_ElencoDocVideo</ResourceId>
+      <Type>Catalog</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>_DTS_Note</Name>
+      <ResourceId i:nil="true" />
+      <Type>CustomTypeModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>HBD_FRM_DocumentoBacheca</Name>
+      <ResourceId i:nil="true" />
+      <Type>CustomTypeModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>HSD_ElencoDocNews</Name>
+      <ResourceId i:nil="true" />
+      <Type>CatalogModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>HSD_ElencoDocNuoviAssunti</Name>
+      <ResourceId i:nil="true" />
+      <Type>CatalogModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>HSD_ElencoDocOffLavoro</Name>
+      <ResourceId i:nil="true" />
+      <Type>CatalogModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>HSD_ElencoDocProcedure</Name>
+      <ResourceId i:nil="true" />
+      <Type>CatalogModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>HSD_ElencoDocSuccStory</Name>
+      <ResourceId i:nil="true" />
+      <Type>CatalogModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>HSD_ElencoDocVideo</Name>
+      <ResourceId i:nil="true" />
+      <Type>CatalogModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>HSD_ElencoBacheche</Name>
+      <ResourceId i:nil="true" />
+      <Type>CatalogModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>HSD_ElencoDocComAziendali</Name>
+      <ResourceId i:nil="true" />
+      <Type>CatalogModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>HBD_CAT_DocBacheca</Name>
+      <ResourceId i:nil="true" />
+      <Type>AclModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>Configuratori</Name>
+      <ResourceId>38d72c9e-3f1e-4eea-90b1-77bcf42d34cb</ResourceId>
+      <Type>Group</Type>
+      <Url />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>Consultatori</Name>
+      <ResourceId>69625861-0de3-4aa4-b41c-cb60fbcf3221</ResourceId>
+      <Type>Group</Type>
+      <Url />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>HBD_PSA_AggiornaBacheca</Name>
+      <ResourceId i:nil="true" />
+      <Type>ProcessModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>HBD_PR_CalcolaElementiDaAggiornare</Name>
+      <ResourceId i:nil="true" />
+      <Type>ProcessModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>HSD_ElencoSupporto</Name>
+      <ResourceId i:nil="true" />
+      <Type>CatalogModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>Bacheca</Name>
+      <ResourceId i:nil="true" />
+      <Type>Data</Type>
+      <Url>/F1DE2C30572B4FCEA38CABDF00D70D64/Data/E8A798F7A3F04759A978AD5100AE0E9C</Url>
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>HBD_CAT_OnlyBacheca</Name>
+      <ResourceId i:nil="true" />
+      <Type>AclModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+    <AliasDefinitionStore>
+      <Description i:nil="true" />
+      <Name>HBD_FRM_Bacheca</Name>
+      <ResourceId i:nil="true" />
+      <Type>CustomTypeModel</Type>
+      <Url i:nil="true" />
+    </AliasDefinitionStore>
+  </References>
+  <DeployPlans>
+    <DeployPlanFile>
+      <Configurations>
+        <ConfigurationStore>
+          <ConfigurationName>Corso47</ConfigurationName>
+          <Enable>true</Enable>
+          <ReconciliationList />
+          <RepositoryLocations>
+            <NamedReference>
+              <Type>EventRepository</Type>
+              <Url>/F1DE2C30572B4FCEA38CABDF00D70D64/EventRepository</Url>
+              <Name>Corso47-Event</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>IdentityRepository</Type>
+              <Url>/F1DE2C30572B4FCEA38CABDF00D70D64/IdentityRepository</Url>
+              <Name>Corso47</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>GroupRepository</Type>
+              <Url>/F1DE2C30572B4FCEA38CABDF00D70D64/GroupRepository</Url>
+              <Name>Corso47-Group</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>ModelRepository</Type>
+              <Url>/F1DE2C30572B4FCEA38CABDF00D70D64/ModelRepository</Url>
+              <Name>Corso47-Model</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>DataRepository</Type>
+              <Url>/F1DE2C30572B4FCEA38CABDF00D70D64/DataRepository</Url>
+              <Name>Corso47-Data</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>DocumentRepository</Type>
+              <Url>/F1DE2C30572B4FCEA38CABDF00D70D64/DocumentRepository</Url>
+              <Name>Corso47-Document</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>DocumentProcessingRepository</Type>
+              <Url>/F1DE2C30572B4FCEA38CABDF00D70D64/DocumentProcessingRepository</Url>
+              <Name>Corso47-DocumentProcessing</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>OrganizationRepository</Type>
+              <Url>/F1DE2C30572B4FCEA38CABDF00D70D64/OrganizationRepository</Url>
+              <Name>Corso47-Organization</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>HumanTaskRepository</Type>
+              <Url>/F1DE2C30572B4FCEA38CABDF00D70D64/HumanTaskRepository</Url>
+              <Name>Corso47-HumanTask</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>ProcessRepository</Type>
+              <Url>/F1DE2C30572B4FCEA38CABDF00D70D64/ProcessRepository</Url>
+              <Name>Corso47-Process</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>ServiceRepository</Type>
+              <Url>/F1DE2C30572B4FCEA38CABDF00D70D64/ServiceRepository</Url>
+              <Name>Corso47-Service</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>ScheduleRepository</Type>
+              <Url>/F1DE2C30572B4FCEA38CABDF00D70D64/ScheduleRepository</Url>
+              <Name>Corso47-Schedule</Name>
+            </NamedReference>
+          </RepositoryLocations>
+        </ConfigurationStore>
+      </Configurations>
+      <ConfigurationsUrl xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:KeyValueOfstringstring>
+          <d4p1:Key>Corso47</d4p1:Key>
+          <d4p1:Value>/Tenant/F1DE2C30572B4FCEA38CABDF00D70D64</d4p1:Value>
+        </d4p1:KeyValueOfstringstring>
+      </ConfigurationsUrl>
+      <Connection>
+        <Type>Undefined</Type>
+        <Url>https://paas.jamio.com/gateway</Url>
+        <Name>Corso47</Name>
+      </Connection>
+      <DefaultRepository>
+        <Type>ModelRepository</Type>
+        <Url>/F1DE2C30572B4FCEA38CABDF00D70D64/ModelRepository</Url>
+        <Name>Corso47-Model</Name>
+      </DefaultRepository>
+      <Name>Corso47</Name>
+    </DeployPlanFile>
+    <DeployPlanFile>
+      <Configurations>
+        <ConfigurationStore>
+          <ConfigurationName>CorsoInt36</ConfigurationName>
+          <Enable>true</Enable>
+          <ReconciliationList />
+          <RepositoryLocations>
+            <NamedReference>
+              <Type>EventRepository</Type>
+              <Url>/4E6AC00A252E49A8A42AAACD012A6ABB/EventRepository</Url>
+              <Name>CorsoInt36-Event</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>IdentityRepository</Type>
+              <Url>/4E6AC00A252E49A8A42AAACD012A6ABB/IdentityRepository</Url>
+              <Name>CorsoInt36</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>GroupRepository</Type>
+              <Url>/4E6AC00A252E49A8A42AAACD012A6ABB/GroupRepository</Url>
+              <Name>CorsoInt36-Group</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>ModelRepository</Type>
+              <Url>/4E6AC00A252E49A8A42AAACD012A6ABB/ModelRepository</Url>
+              <Name>CorsoInt36-Model</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>DataRepository</Type>
+              <Url>/4E6AC00A252E49A8A42AAACD012A6ABB/DataRepository</Url>
+              <Name>CorsoInt36-Data</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>DocumentRepository</Type>
+              <Url>/4E6AC00A252E49A8A42AAACD012A6ABB/DocumentRepository</Url>
+              <Name>CorsoInt36-Document</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>DocumentProcessingRepository</Type>
+              <Url>/4E6AC00A252E49A8A42AAACD012A6ABB/DocumentProcessingRepository</Url>
+              <Name>CorsoInt36-DocumentProcessing</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>OrganizationRepository</Type>
+              <Url>/4E6AC00A252E49A8A42AAACD012A6ABB/OrganizationRepository</Url>
+              <Name>CorsoInt36-Organization</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>HumanTaskRepository</Type>
+              <Url>/4E6AC00A252E49A8A42AAACD012A6ABB/HumanTaskRepository</Url>
+              <Name>CorsoInt36-HumanTask</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>ProcessRepository</Type>
+              <Url>/4E6AC00A252E49A8A42AAACD012A6ABB/ProcessRepository</Url>
+              <Name>CorsoInt36-Process</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>ServiceRepository</Type>
+              <Url>/4E6AC00A252E49A8A42AAACD012A6ABB/ServiceRepository</Url>
+              <Name>CorsoInt36-Service</Name>
+            </NamedReference>
+            <NamedReference>
+              <Type>ScheduleRepository</Type>
+              <Url>/4E6AC00A252E49A8A42AAACD012A6ABB/ScheduleRepository</Url>
+              <Name>CorsoInt36-Schedule</Name>
+            </NamedReference>
+          </RepositoryLocations>
+        </ConfigurationStore>
+      </Configurations>
+      <ConfigurationsUrl xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:KeyValueOfstringstring>
+          <d4p1:Key>CorsoInt36</d4p1:Key>
+          <d4p1:Value>/Tenant/4E6AC00A252E49A8A42AAACD012A6ABB</d4p1:Value>
+        </d4p1:KeyValueOfstringstring>
+      </ConfigurationsUrl>
+      <Connection>
+        <Type>Undefined</Type>
+        <Url>https://paas.jamio.com/gateway</Url>
+        <Name>CorsoInt36</Name>
+      </Connection>
+      <DefaultRepository>
+        <Type>ModelRepository</Type>
+        <Url>/4E6AC00A252E49A8A42AAACD012A6ABB/ModelRepository</Url>
+        <Name>CorsoInt36-Model</Name>
+      </DefaultRepository>
+      <Name>CorsoInt36</Name>
+    </DeployPlanFile>
+  </DeployPlans>
+  <Resources>
+    <ResourceDefinitionStore>
+      <Name>HBD_ARC_Configuratori</Name>
+      <Type>GroupRepository</Type>
+    </ResourceDefinitionStore>
+    <ResourceDefinitionStore>
+      <Name>HBD_ARC_Consultatori</Name>
+      <Type>GroupRepository</Type>
+    </ResourceDefinitionStore>
+    <ResourceDefinitionStore>
+      <Name>HBD_ARC_Bacheca</Name>
+      <Type>DataRepository</Type>
+    </ResourceDefinitionStore>
+  </Resources>
+</SolutionFile>

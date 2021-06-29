@@ -1,0 +1,36 @@
+﻿<ResourceFile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.openworkbpm.com/schema">
+  <Definitions />
+  <Description i:nil="true" />
+  <DesignerVersion>28</DesignerVersion>
+  <Id i:nil="true" />
+  <Name>HBD_ARC_Bacheca</Name>
+  <ObjectType>ResourceFile</ObjectType>
+  <RepositoryId i:nil="true" />
+  <Version>0</Version>
+  <Items>
+    <ResourceStore>
+      <CustomizationReference>HBD_FRM_Bacheca</CustomizationReference>
+      <Id>d7f4cdc8-0298-401e-b70f-8d68f602115e</Id>
+      <Resource i:type="Data">
+        <AttachmentInfoList />
+        <Created i:nil="true" />
+        <Description i:nil="true" />
+        <Fields i:nil="true" />
+        <Frozen i:nil="true" />
+        <Id i:nil="true" />
+        <LastUpdated i:nil="true" />
+        <Locked i:nil="true" />
+        <ModelReference i:nil="true" />
+        <Name>Bacheca</Name>
+        <Number i:nil="true" />
+        <Numbered i:nil="true" />
+        <RepositoryId i:nil="true" />
+        <SendingDirection>None</SendingDirection>
+        <SendingProgress>0</SendingProgress>
+        <SendingStatus>None</SendingStatus>
+        <StructureHash i:nil="true" />
+      </Resource>
+    </ResourceStore>
+  </Items>
+  <Type>DataRepository</Type>
+</ResourceFile>
